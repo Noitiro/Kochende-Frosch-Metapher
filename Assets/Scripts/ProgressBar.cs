@@ -30,14 +30,17 @@ public class ProgressBar : MonoBehaviour
         {
             pointAmmount *= multiplier;
             currentProgress -= pointAmmount;
+            multiplier = 1;
         }else if (pointAmmount <= 66)
         {
             currentProgress += pointAmmount;
+            multiplier = 1;
         }
         else
         {
             pointAmmount *= multiplier;
             currentProgress += pointAmmount;
+            multiplier += 0.4;
         }
     }
 
