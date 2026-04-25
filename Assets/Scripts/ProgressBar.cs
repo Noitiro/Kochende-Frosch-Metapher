@@ -41,16 +41,16 @@ public class ProgressBar : MonoBehaviour
         return currentProgress;
     }
 
-    void gameResultHandler(float pointAmmount)
+    public void gameResultHandler(float pointAmmount)
     {
         pointAmmount /= 10;
-        if (pointAmmount <= 33)
+        if (pointAmmount <= 3.3f)
         {
             pointAmmount *= multiplier;
             currentProgress -= pointAmmount;
             multiplier = 1;
         }
-        else if (pointAmmount <= 66)
+        else if (pointAmmount <= 6.6f)
         {
             currentProgress += pointAmmount;
             multiplier = 1;

@@ -11,6 +11,7 @@ public class TVMinigame : MonoBehaviour
     [SerializeField] private TextMeshProUGUI wordText;
     [SerializeField] private float displayTime = 5f;
     [SerializeField] private int sentencesCount = 5;
+    public GameObject progressBarObject;
 
     private bool _isFinished;
     private List<string> _sentences;
@@ -40,7 +41,7 @@ public class TVMinigame : MonoBehaviour
     private void OnTextInput(char c)
     {
         
-        if (_isFinished || _currentSentence == "" || _currentCharIndex > _currentSentence.Length) return;
+        if (_isFinished || _currentSentence == "" || _currentCharIndex >= _currentSentence.Length) return;
         
         if (c == '\b')
         {
@@ -102,7 +103,7 @@ public class TVMinigame : MonoBehaviour
 
         _isFinished = true;
         wordText.SetText("");
-        Debug.Log(Score());
+        Score();
     }
 
     private void UpdateText()
@@ -141,10 +142,8 @@ public class TVMinigame : MonoBehaviour
         
         wordText.SetText(result);
     }
-
-    private int Score()
-    {
-        return (int)(((float)_points / _charCount) * 100);
+    public void Score(){
+        progressBarObject.GetComponent<ProgressBar>().gameResultHandler(((((float)_points / _charCount) * 100) + 33));
+        Debug.Log("Score TV: "+ ((((float)_points / _charCount) * 100) + 33));
     }
-    
 }
