@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &35620213
 RectTransform:
   m_ObjectHideFlags: 0
@@ -144,7 +144,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35620212}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -152,12 +152,12 @@ RectTransform:
   - {fileID: 1475735592}
   - {fileID: 1803950330}
   - {fileID: 805225975}
-  m_Father: {fileID: 126650898}
+  m_Father: {fileID: 483560689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -72.83081, y: 21.214417}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &35620214
 MonoBehaviour:
@@ -323,7 +323,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1427004506}
-  - {fileID: 35620213}
+  - {fileID: 483560689}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -424,6 +424,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 847496988}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &483560688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 483560689}
+  - component: {fileID: 483560690}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483560689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483560688}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 72.83081, y: -21.214417, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 35620213}
+  m_Father: {fileID: 126650898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &483560690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483560688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de537683691f6c49885d4df6c4658c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TVMinigame
+  sentencesFile: {fileID: 4900000, guid: 7fb702fc78347474b884beebabdf5c62, type: 3}
+  wordText: {fileID: 805225977}
+  displayTime: 10
+  sentencesCount: 1
+  tvPanel: {fileID: 35620212}
+  progressBarObject: {fileID: 1427004505}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3206,7 +3257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   numberOfDays: 0
   tv: {fileID: 2051685353}
-  tvEvent: {fileID: 1932892599}
+  tvEvent: {fileID: 483560688}
   counterMinigame: 0
 --- !u!1 &738786496
 GameObject:
@@ -3393,7 +3444,6 @@ GameObject:
   - component: {fileID: 805225975}
   - component: {fileID: 805225978}
   - component: {fileID: 805225977}
-  - component: {fileID: 805225976}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3420,23 +3470,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 200}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &805225976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805225974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4de537683691f6c49885d4df6c4658c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TVMinigame
-  sentencesFile: {fileID: 4900000, guid: 7fb702fc78347474b884beebabdf5c62, type: 3}
-  wordText: {fileID: 805225977}
-  displayTime: 10
-  sentencesCount: 1
-  progressBarObject: {fileID: 1427004505}
 --- !u!114 &805225977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7757,6 +7790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EventManger
       objectReference: {fileID: 0}
+    - target: {fileID: 5725426012288006860, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7276866001593186843, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
       propertyPath: maxEvents
       value: 1
@@ -7988,11 +8025,6 @@ Transform:
   - {fileID: 554450705}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1932892599 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5725426012288006860, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
-  m_PrefabInstance: {fileID: 1573486000}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1941995005
 GameObject:
   m_ObjectHideFlags: 0
@@ -8207,7 +8239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &2051685353
 BoxCollider2D:
   m_ObjectHideFlags: 0

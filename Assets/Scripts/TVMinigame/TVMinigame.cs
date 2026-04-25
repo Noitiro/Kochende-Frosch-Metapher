@@ -11,6 +11,8 @@ public class TVMinigame : MonoBehaviour
     [SerializeField] private TextMeshProUGUI wordText;
     [SerializeField] private float displayTime = 5f;
     [SerializeField] private int sentencesCount = 5;
+    [SerializeField] private GameObject tvPanel;
+
     public GameObject progressBarObject;
 
     private bool _isFinished;
@@ -24,12 +26,21 @@ public class TVMinigame : MonoBehaviour
         Default, Bad, Good
     };
     private CharStates[] _charState;
+
+    public void StartTVMinigame()
+    {
+        _isFinished = false;
+        _charCount = 0;
+        _points = 0;
+        _currentSentence = "";
+        _currentCharIndex = 0;
+        _sentences = new List<string>(System.Array.ConvertAll(sentencesFile.text.Split('\n'), s => s.Trim()));
+        StartCoroutine(DisplaySentences());
+        tvPanel.SetActive(true);
+    }
     
     void Start()
     {
-        _sentences = new List<string>(System.Array.ConvertAll(sentencesFile.text.Split('\n'), s => s.Trim()));
-        StartCoroutine(DisplaySentences());
-
         Keyboard.current.onTextInput += OnTextInput;
     }
 
@@ -41,7 +52,7 @@ public class TVMinigame : MonoBehaviour
     private void OnTextInput(char c)
     {
         
-        if (_isFinished || _currentSentence == "" || _currentCharIndex >= _currentSentence.Length) return;
+        if (_isFinished || _currentSentence == "") return;
         
         if (c == '\b')
         {
@@ -54,6 +65,8 @@ public class TVMinigame : MonoBehaviour
 
             return;
         }
+        
+        if(_currentCharIndex >= _currentSentence.Length)    return;
 
         if (c == _currentSentence[_currentCharIndex])
         {
@@ -104,6 +117,7 @@ public class TVMinigame : MonoBehaviour
         _isFinished = true;
         wordText.SetText("");
         Score();
+        tvPanel.SetActive(false);
     }
 
     private void UpdateText()
