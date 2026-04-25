@@ -1,24 +1,31 @@
+using System;
+using TMPro;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class EndingCard : MonoBehaviour
 {
     private float finalScore;
     private char grade;
     private int citizenNo;
+    [SerializeField] private TextMeshProUGUI CitizenNumber;
+    [SerializeField] private TextMeshProUGUI PlayerScore;
+    [SerializeField] private TextMeshProUGUI ScoreGrade;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        finalScore = ProgressBar.getProgress();
-        grade = getGradeFromScore();
         citizenNo = setCitizenNo();
-        
+        CitizenNumber.text = citizenNo.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        finalScore = ProgressBar.getProgress();
+        grade = getGradeFromScore();
+        int rounded = (int)MathF.Round(finalScore); 
+        PlayerScore.text = rounded.ToString();
     }
 
     char getGradeFromScore()

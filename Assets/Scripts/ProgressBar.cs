@@ -12,9 +12,9 @@ public class ProgressBar : MonoBehaviour
 
     void Start()
     {
-        currentProgress = 50;
-        maxProgress = 100;
-        multiplier = 1;
+        currentProgress = 50f;
+        maxProgress = 100f;
+        multiplier = 1f;
 
         if (fillImage != null)
             fillImage.fillAmount = 0f;
