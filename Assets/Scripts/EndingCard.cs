@@ -44,7 +44,6 @@ public class EndingCard : MonoBehaviour
         resolution = getResolution();
         Resolution.text = resolution;
         ScoreGrade.text = grade.ToString();
-        SlideIn();
     }
 
     void Update()
