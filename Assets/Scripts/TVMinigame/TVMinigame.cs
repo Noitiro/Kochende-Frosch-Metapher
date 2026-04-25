@@ -35,18 +35,17 @@ public class TVMinigame : MonoBehaviour
         _currentSentence = "";
         _currentCharIndex = 0;
         _sentences = new List<string>(System.Array.ConvertAll(sentencesFile.text.Split('\n'), s => s.Trim()));
+        Keyboard.current.onTextInput += OnTextInput;
         StartCoroutine(DisplaySentences());
         tvPanel.SetActive(true);
     }
     
     void Start()
     {
-        Keyboard.current.onTextInput += OnTextInput;
     }
 
     private void OnDestroy()
     {
-        Keyboard.current.onTextInput -= OnTextInput;
     }
     
     private void OnTextInput(char c)
@@ -115,6 +114,7 @@ public class TVMinigame : MonoBehaviour
         }
 
         _isFinished = true;
+        Keyboard.current.onTextInput -= OnTextInput;
         wordText.SetText("");
         Score();
         tvPanel.SetActive(false);
