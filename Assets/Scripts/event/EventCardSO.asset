@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8541e9df484a8a944bfdf0615be0c6ff, type: 3}
   m_Name: EventCardSO
   m_EditorClassIdentifier: Assembly-CSharp::EventCardSO
-  EventName: 
-  Story: 
-  Backgroud: {fileID: 0}
-  value: 0
-  LeftOption: 
+  EventName: huragan
+  Story: wieje
+  Icon: {fileID: 0}
+  value: 5
+  LeftOption: "Super, \u017Ce wieje"
   isLeftOptionNegative: 0
   LeftResponse: 
-  RightOption: 
-  isRightOptionNegative: 0
+  RightOption: Katastrofa, wielkie straty
+  isRightOptionNegative: 1
   RightResponse: 
