@@ -6,7 +6,7 @@ public class ProgressBar : MonoBehaviour
     [SerializeField] private Image fillImage;
     [SerializeField] private float fillSpeed = 1.5f;
 
-    float currentProgress;
+    static float currentProgress;
     float maxProgress;
     float multiplier;
 
@@ -36,7 +36,7 @@ public class ProgressBar : MonoBehaviour
             );
     }
 
-    float getProgress()
+    public static float getProgress()
     {
         return currentProgress;
     }
