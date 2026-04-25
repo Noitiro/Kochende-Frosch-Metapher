@@ -1,33 +1,53 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
-public class EventCardUI : MonoBehaviour{
-    public EventCardSO currentCard;
-    public Image iconSprite;
+public class EventCardUI : MonoBehaviour
+{
+    public Image iconImage;
     public TMP_Text nameText;
     public TMP_Text storyText;
-    public TMP_Text leftOptionText;
-    public TMP_Text rightOptionText;
 
-    void Start()
+    public CanvasGroup leftPanel;
+    public CanvasGroup rightPanel;
+
+    public void LoadCardData(EventCardSO card)
     {
-        UpdateCardUI();
+        if (card != null)
+        {
+            if (iconImage != null) iconImage.sprite = card.Icon;
+
+            nameText.text = card.EventName;
+            storyText.text = card.Story;
+
+            leftPanel.GetComponentInChildren<TMP_Text>().text = card.LeftOption;
+            rightPanel.GetComponentInChildren<TMP_Text>().text = card.RightOption;
+
+            ResetAlphas();
+        }
     }
 
-    public void UpdateCardUI()
+    public void UpdateDragVisuals(float progress)
     {
-        if (currentCard != null)
+        if (progress < 0)
         {
-
-            nameText.text = currentCard.EventName;
-            storyText.text = currentCard.Story;
-            leftOptionText.text = currentCard.LeftOption;
-            rightOptionText.text = currentCard.RightOption;
+            leftPanel.alpha = Mathf.Abs(progress);
+            rightPanel.alpha = 0;
+        }
+        else if (progress > 0)
+        {
+            rightPanel.alpha = progress;
+            leftPanel.alpha = 0;
         }
         else
         {
-            Debug.LogWarning("brak karty kurwa");
+            ResetAlphas();
         }
+    }
+
+    public void ResetAlphas()
+    {
+        if (leftPanel != null) leftPanel.alpha = 0;
+        if (rightPanel != null) rightPanel.alpha = 0;
     }
 }

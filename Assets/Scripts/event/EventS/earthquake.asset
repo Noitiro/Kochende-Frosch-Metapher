@@ -10,15 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8541e9df484a8a944bfdf0615be0c6ff, type: 3}
-  m_Name: EventCardSO
+  m_Name: earthquake
   m_EditorClassIdentifier: Assembly-CSharp::EventCardSO
-  EventName: huragan
-  Story: wieje
+  EventName: earthquake
+  Story: A light earthquake is shaking the nation
   Icon: {fileID: 0}
   value: 5
-  LeftOption: "Super, \u017Ce wieje"
+  LeftOption: The 50,000 people taking part in our bi-monthly march in glory of our
+    Supreme Leader really got the ground shaking!
   isLeftOptionNegative: 0
-  LeftResponse: 
-  RightOption: Katastrofa, wielkie straty
+  LeftResponse: Wow, that's a lot of people!
+  RightOption: A bioengineered t-rex sent by our enemies is making its' way through
+    the city!
   isRightOptionNegative: 1
-  RightResponse: 
+  RightResponse: I'll believe it when I see it...

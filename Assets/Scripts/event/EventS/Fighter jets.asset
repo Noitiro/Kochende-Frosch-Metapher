@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8541e9df484a8a944bfdf0615be0c6ff, type: 3}
+  m_Name: Fighter jets
+  m_EditorClassIdentifier: Assembly-CSharp::EventCardSO
+  EventName: Fighter jets
+  Story: Fighter jets are flying overhead
+  Icon: {fileID: 0}
+  value: 5
+  LeftOption: The air force is continuing the search for suspected spy baloons sent
+    by our enemies
+  isLeftOptionNegative: 0
+  LeftResponse: I hope they'll find them soon...
+  RightOption: The new BIG-15 fighter jets are continuing tests - though they appear
+    to be quite unreliable
+  isRightOptionNegative: 1
+  RightResponse: I don't think they'd test unreliable machinery over civilian areas...
