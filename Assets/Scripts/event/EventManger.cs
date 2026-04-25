@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public class EventManger : MonoBehaviour
 {
     [Header("Ustawienia Talii")]
@@ -14,7 +14,19 @@ public class EventManger : MonoBehaviour
     public int maxEvents = 5;
     private int eventsPlayed = 0;
 
+    [Header("Zewnêtrzne Systemy")]
+    public GameObject progressBarObject;
+
     private GameObject currentCardObject;
+    private EventCardSO currentCardData;
+
+    void Update()
+    {
+        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            StartEventSequence();
+        }
+    }
 
     public void StartEventSequence()
     {
@@ -42,7 +54,7 @@ public class EventManger : MonoBehaviour
 
         if (playingDeck.Count > 0 && eventsPlayed < maxEvents)
         {
-            EventCardSO data = playingDeck[0];
+            currentCardData = playingDeck[0];
             playingDeck.RemoveAt(0);
 
             currentCardObject = Instantiate(cardPrefab, cardParent);
@@ -50,7 +62,7 @@ public class EventManger : MonoBehaviour
             EventCardUI ui = currentCardObject.GetComponent<EventCardUI>();
             EventSwipe swipe = currentCardObject.GetComponent<EventSwipe>();
 
-            ui.LoadCardData(data);
+            ui.LoadCardData(currentCardData);
 
             swipe.OnSwipedLeft += HandleLeftDecision;
             swipe.OnSwipedRight += HandleRightDecision;
@@ -68,12 +80,24 @@ public class EventManger : MonoBehaviour
     private void HandleLeftDecision()
     {
         Debug.Log("Lewo!");
+
+        if (progressBarObject != null)
+        {
+            progressBarObject.SendMessage("randomEventsHandler", currentCardData.isLeftOptionNegative, SendMessageOptions.DontRequireReceiver);
+        }
+
         Invoke(nameof(LoadNextCard), 0.5f);
     }
 
     private void HandleRightDecision()
     {
         Debug.Log("Prawo!");
+
+        if (progressBarObject != null)
+        {
+            progressBarObject.SendMessage("randomEventsHandler", currentCardData.isRightOptionNegative, SendMessageOptions.DontRequireReceiver);
+        }
+
         Invoke(nameof(LoadNextCard), 0.5f);
     }
 }
