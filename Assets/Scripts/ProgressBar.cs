@@ -12,7 +12,7 @@ public class ProgressBar : MonoBehaviour
 
     void Start()
     {
-        currentProgress = 50;
+        currentProgress = 0;
         maxProgress = 100;
         multiplier = 1;
 

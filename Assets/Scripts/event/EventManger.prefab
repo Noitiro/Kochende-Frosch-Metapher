@@ -46,6 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EventManger
   cardPrefab: {fileID: 7070807373168967356, guid: deaa022f3e1fb9d4098cc8b7e9b5db47, type: 3}
   cardParent: {fileID: 0}
-  masterDeck: []
-  maxEvents: 5
+  masterDeck:
+  - {fileID: 11400000, guid: a32533761b7af1b4e9b5881b90868ca7, type: 2}
+  - {fileID: 11400000, guid: 2a21e03934720e6489441f38746f6989, type: 2}
+  - {fileID: 11400000, guid: b844a0bacfd23bc4eb328550617b6380, type: 2}
+  - {fileID: 11400000, guid: 597bcc93b0486eb45b7d5b39ff2a8321, type: 2}
+  maxEvents: 1
   progressBarObject: {fileID: 0}
