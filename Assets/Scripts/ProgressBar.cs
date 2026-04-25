@@ -1,11 +1,11 @@
 using UnityEngine;
 
-float currentProgress;
-float maxProgress;
-float multiplier;
+
 public class ProgressBar : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    float currentProgress;
+    float maxProgress;
+    float multiplier;
     void Start()
     {
         currentProgress = 0;
@@ -13,7 +13,6 @@ public class ProgressBar : MonoBehaviour
         multiplier = 1;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -40,7 +39,7 @@ public class ProgressBar : MonoBehaviour
         {
             pointAmmount *= multiplier;
             currentProgress += pointAmmount;
-            multiplier += 0.4;
+            multiplier += 0.4f;
         }
     }
 
