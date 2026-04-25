@@ -14,7 +14,7 @@ public class EventManger : MonoBehaviour
     public int maxEvents = 5;
     private int eventsPlayed = 0;
 
-    [Header("Zewnêtrzne Systemy")]
+    [Header("Zewnï¿½trzne Systemy")]
     public GameObject progressBarObject;
 
     private GameObject currentCardObject;
@@ -22,10 +22,7 @@ public class EventManger : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            StartEventSequence();
-        }
+
     }
 
     public void StartEventSequence()
@@ -73,7 +70,7 @@ public class EventManger : MonoBehaviour
         }
         else
         {
-            Debug.Log("Koniec sekwencji eventów!");
+            Debug.Log("Koniec sekwencji eventï¿½w!");
         }
     }
 
