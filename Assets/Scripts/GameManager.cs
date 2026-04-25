@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour{
     void startTv()
     {
         Debug.Log ("Start TV minigame");
-        tvEvent.GetComponent<EventManger>().StartEventSequence();
+        tvEvent.GetComponent<TVMinigame>().StartTVMinigame();
         // tvEvent.EventManger.StartEventSequence;
     }
 }
