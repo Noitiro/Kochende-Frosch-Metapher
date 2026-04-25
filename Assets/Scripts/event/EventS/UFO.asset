@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8541e9df484a8a944bfdf0615be0c6ff, type: 3}
+  m_Name: UFO
+  m_EditorClassIdentifier: Assembly-CSharp::EventCardSO
+  EventName: UFO
+  Story: Strange lights are appearing in the sky
+  Icon: {fileID: 0}
+  value: 0
+  LeftOption: Dozens of spy satellites have been placed over our country by the enemies.
+  isLeftOptionNegative: 1
+  LeftResponse: There's no way they could launch this many this quickly...
+  RightOption: A rare meteor shower has started overhead. It's completely harmless
+    and very pretty.
+  isRightOptionNegative: 0
+  RightResponse: What a sight to see!
