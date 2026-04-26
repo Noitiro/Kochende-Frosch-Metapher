@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1afc8560288961f418e546b095706e7e
+guid: e8c5959c0b6fc8546a293fae44ab3619
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5709217093657951866
-    second: worldMap_0
+      213: -1272677867225930765
+    second: Office_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: worldMap_0
+      name: Office_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 8000
-        height: 4000
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7ef11da2b63b3f40800000000000000
-      internalID: 5709217093657951866
+      spriteID: 3f32f72093a865ee0800000000000000
+      internalID: -1272677867225930765
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      worldMap_0: 5709217093657951866
+      Office_0: -1272677867225930765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
