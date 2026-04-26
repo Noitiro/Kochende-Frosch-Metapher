@@ -14,7 +14,7 @@ public class TVMinigame : MonoBehaviour
     [SerializeField] private GameObject tvPanel;
 
     public GameObject progressBarObject;
-
+    
     private bool _isFinished;
     private List<string> _sentences;
     private int _charCount;
@@ -40,20 +40,20 @@ public class TVMinigame : MonoBehaviour
         tvPanel.SetActive(true);
     }
     
-    void Start()
-    {
-    }
+    // void Start()
+    // {
+    // }
 
-    private void OnDestroy()
-    {
-    }
+    // private void OnDestroy()
+    // {
+    // }
     
     private void OnTextInput(char c)
     {
         
         if (_isFinished || _currentSentence == "") return;
         
-        if (c == '\b')
+        if (Keyboard.current.backspaceKey.wasPressedThisFrame)
         {
             if (_currentCharIndex > 0)
             {
@@ -61,9 +61,10 @@ public class TVMinigame : MonoBehaviour
                 _charState[_currentCharIndex] = CharStates.Default;
                 UpdateText();
             }
-
+                
             return;
         }
+       
         
         if(_currentCharIndex >= _currentSentence.Length)    return;
 
@@ -80,10 +81,10 @@ public class TVMinigame : MonoBehaviour
         UpdateText();
         
     }
+    
 
     // void Update()
     // {
-    //
     // }
 
     private IEnumerator DisplaySentences()
