@@ -20,6 +20,8 @@ public class IntroMessageSequence : MonoBehaviour
     [Tooltip("The root GameObject with all UI elements. Hidden after the last message. Defaults to this GameObject.")]
     public GameObject uiRoot;
 
+    public GameObject blackPanel;
+
     [Tooltip("CanvasGroup on uiRoot for alpha control. Created automatically if missing.")]
     public CanvasGroup uiCanvasGroup;
 
@@ -30,6 +32,8 @@ public class IntroMessageSequence : MonoBehaviour
     public Vector2 imageSizeStart = new Vector2(960f, 540f);
     public Vector2 imageSizeEnd   = new Vector2(1344f, 756f);
 
+    private SceneManagerScript sceneManager;
+    
     [System.Serializable]
     public class MessageEntry
     {
@@ -96,6 +100,8 @@ public class IntroMessageSequence : MonoBehaviour
     /// </summary>
     public void Play()
     {
+        sceneManager = FindFirstObjectByType<SceneManagerScript>();
+        
         if (_isPlaying) return;
 
         if (messageText == null)
@@ -109,6 +115,8 @@ public class IntroMessageSequence : MonoBehaviour
 
         _isPlaying = true;
         StartCoroutine(RunSequence());
+        blackPanel.SetActive(true);
+
     }
     
 
@@ -146,11 +154,11 @@ public class IntroMessageSequence : MonoBehaviour
             {
                 messageText.text = entry.message;
             }
-
             yield return new WaitForSeconds(entry.duration);
         }
 
         // Done — hide everything
+        sceneManager.LoadScene("Map");
         uiRoot.SetActive(false);
         _isPlaying = false;
     }
