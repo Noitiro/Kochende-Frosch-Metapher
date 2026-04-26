@@ -19,8 +19,7 @@ public class EndingCard : MonoBehaviour
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
 
-    void Awake()
-    {
+    void Awake(){
         rectTransform = GetComponent<RectTransform>();
 
         // Get or auto-add a CanvasGroup to control visibility
@@ -32,9 +31,7 @@ public class EndingCard : MonoBehaviour
         canvasGroup.alpha = 0f;
         rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x, 1080f);
     }
-
-    void Start()
-    {
+    public void generateEndCard(){
         citizenNo = setCitizenNo();
         CitizenNumber.text = citizenNo.ToString();
         finalScore = ProgressBar.getProgress();
@@ -44,20 +41,14 @@ public class EndingCard : MonoBehaviour
         resolution = getResolution();
         Resolution.text = resolution;
         ScoreGrade.text = grade.ToString();
-    }
 
-    void Update()
-    {
-        
+        SlideIn();
     }
-
-    public void SlideIn()
-    {
+    public void SlideIn(){
         StartCoroutine(SlideInCoroutine());
     }
 
-    private IEnumerator SlideInCoroutine()
-    {
+    private IEnumerator SlideInCoroutine(){
         float duration = 4f;
         float elapsed = 0f;
 
