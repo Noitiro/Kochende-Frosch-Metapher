@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour{
     }
 
     void Start(){
-        numberOfDays = 3;
+        numberOfDays = 8;
         counterMinigame = 1;
         counterRandomEvent = 1;
         counterDay = 1;
