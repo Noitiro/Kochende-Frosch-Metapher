@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -6,12 +7,20 @@ public class GameManager : MonoBehaviour{
     [SerializeField] private Collider2D tv;
     [SerializeField] private GameObject tvEvent;
     [SerializeField] private GameObject randomEvent;
+    [SerializeField] private EndingCard EndingCard;
     private GrandmaMovement grandmaMovement;
     private TVMinigame tvMinigame;
     private EventManger eventManger;
-    public int counterDay;
-    public int counterRandomEvent;
-    public int counterMinigame;
+    private int counterDay;
+    private int counterRandomEvent;
+    private int counterMinigame;
+
+    [SerializeField] private float time;
+    
+    IEnumerator Wait(){
+        yield return new WaitForSeconds(time);
+    }
+
     void Start(){
         counterMinigame = 1;
         counterRandomEvent = 1;
@@ -21,21 +30,15 @@ public class GameManager : MonoBehaviour{
         eventManger = randomEvent.GetComponent<EventManger>();
     }
     void Update(){
-        if(counterMinigame <= numberOfDays)
-        {
-            counterMinigame++;
-        }
-        else{
-            //end game
-        }
-
         if(tvMinigame._isFinished == true && counterMinigame == counterDay){
             grandmaMovement.isWaiting = false;
             counterMinigame++;
+            Debug.Log(counterMinigame);
         }
         if(eventManger.isFinishRandomEvent == true && counterRandomEvent == counterDay){
             grandmaMovement.isWaiting = false;
             counterRandomEvent++;
+            endGame();
         }
     }
     private void OnTriggerEnter2D(Collider2D other) {
@@ -54,5 +57,9 @@ public class GameManager : MonoBehaviour{
         grandmaMovement.isWaiting = true;
         Debug.Log ("Start random evenet");
         randomEvent.GetComponent<EventManger>().StartEventSequence();
+    }
+    void endGame(){
+        EndingCard.generateEndCard();
+        Debug.Log("END GAME");
     }
 }
