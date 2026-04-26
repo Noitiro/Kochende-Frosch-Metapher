@@ -9,9 +9,13 @@ public class GameManager : MonoBehaviour{
     private GrandmaMovement grandmaMovement;
     private TVMinigame tvMinigame;
     private EventManger eventManger;
+    public int counterDay;
+    public int counterRandomEvent;
     public int counterMinigame;
     void Start(){
         counterMinigame = 1;
+        counterRandomEvent = 1;
+        counterDay = 1;
         grandmaMovement = GetComponent<GrandmaMovement>();
         tvMinigame = tvEvent.GetComponent<TVMinigame>();
         eventManger = randomEvent.GetComponent<EventManger>();
@@ -25,8 +29,13 @@ public class GameManager : MonoBehaviour{
             //end game
         }
 
-        if(tvMinigame._isFinished == true || eventManger.isFinishRandomEvent == true){
+        if(tvMinigame._isFinished == true && counterMinigame == counterDay){
             grandmaMovement.isWaiting = false;
+            counterMinigame++;
+        }
+        if(eventManger.isFinishRandomEvent == true && counterRandomEvent == counterDay){
+            grandmaMovement.isWaiting = false;
+            counterRandomEvent++;
         }
     }
     private void OnTriggerEnter2D(Collider2D other) {
