@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour{
     private GrandmaMovement grandmaMovement;
     private TVMinigame tvMinigame;
     private EventManger eventManger;
-    private int counterDay;
+    [SerializeField] private int counterDay;
     private int counterRandomEvent;
     private int counterMinigame;
 
