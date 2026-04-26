@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8541e9df484a8a944bfdf0615be0c6ff, type: 3}
-  m_Name: EventCardSO 4
+  m_Name: Journalist
   m_EditorClassIdentifier: Assembly-CSharp::EventCardSO
   EventName: 
-  Story: 
+  Story: A well-known journalist has stopped appearing on the evening news
   Icon: {fileID: 0}
   value: 0
-  LeftOption: 
+  LeftOption: She's on maternity leave - wonderful news for her family!
   isLeftOptionNegative: 0
-  LeftResponse: 
-  RightOption: 
-  isRightOptionNegative: 0
-  RightResponse: 
+  LeftResponse: How lovely, I'll miss seeing her!
+  RightOption: She was detained after reporting on last month's protests.
+  isRightOptionNegative: 1
+  RightResponse: Someone would have spoken up by now if that were true...

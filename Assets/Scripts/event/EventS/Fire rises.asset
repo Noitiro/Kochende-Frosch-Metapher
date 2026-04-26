@@ -10,15 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8541e9df484a8a944bfdf0615be0c6ff, type: 3}
-  m_Name: EventCardSO 5
+  m_Name: Fire rises
   m_EditorClassIdentifier: Assembly-CSharp::EventCardSO
   EventName: 
-  Story: 
+  Story: Several government buildings have been evacuated
   Icon: {fileID: 0}
   value: 0
-  LeftOption: 
+  LeftOption: A surprise fire drill ordered by our Supreme Leader himself - because
+    he cares deeply about workplace safety!
   isLeftOptionNegative: 0
-  LeftResponse: 
-  RightOption: 
-  isRightOptionNegative: 0
-  RightResponse: 
+  LeftResponse: How thoughtful of him!
+  RightOption: An anonymous bomb threat has been received at the Ministry of Interior
+    - the third one this month.
+  isRightOptionNegative: 1
+  RightResponse: Three times? Surely that would have made headlines by now...

@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8541e9df484a8a944bfdf0615be0c6ff, type: 3}
-  m_Name: EventCardSO 3
+  m_Name: harbor
   m_EditorClassIdentifier: Assembly-CSharp::EventCardSO
-  EventName: Green water
-  Story: The river running through the capital has turned an unusual color
+  EventName: 
+  Story: A warship has appeared in the harbor
   Icon: {fileID: 0}
   value: 0
-  LeftOption: Industrial waste has been dumped upstream by the chemical plant, contaminating
-    the water supply.
-  isLeftOptionNegative: 1
-  LeftResponse: Is that even legal?!
-  RightOption: 
-  isRightOptionNegative: 0
-  RightResponse: 
+  LeftOption: The vessel is blockading the port to prevent cargo from leaving.
+  isLeftOptionNegative: 0
+  LeftResponse: How disrespectful!
+  RightOption: Our navy is stopping by to boost morale ahead of Fleet Day celebrations!
+  isRightOptionNegative: 1
+  RightResponse: They wouldn't block their own harbor for some celebration...
