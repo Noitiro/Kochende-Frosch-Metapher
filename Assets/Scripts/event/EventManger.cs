@@ -16,15 +16,21 @@ public class EventManger : MonoBehaviour
 
     [Header("Zewn�trzne Systemy")]
     public GameObject progressBarObject;
-
+    public bool isFinishRandomEvent;
     private GameObject currentCardObject;
     private EventCardSO currentCardData;
 
     void Update()
     {
-
+        // if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) {
+        //     StartEventSequence();
+        // }
     }
 
+    void Start()
+    {
+        isFinishRandomEvent = false;
+    }
     public void StartEventSequence()
     {
         playingDeck = new List<EventCardSO>(masterDeck);
@@ -84,6 +90,7 @@ public class EventManger : MonoBehaviour
         }
 
         Invoke(nameof(LoadNextCard), 0.5f);
+        isFinishRandomEvent = true;
     }
 
     private void HandleRightDecision()
@@ -96,5 +103,6 @@ public class EventManger : MonoBehaviour
         }
 
         Invoke(nameof(LoadNextCard), 0.5f);
+        isFinishRandomEvent = true;
     }
 }

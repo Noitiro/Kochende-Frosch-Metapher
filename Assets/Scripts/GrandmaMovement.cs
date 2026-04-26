@@ -9,7 +9,7 @@ public class GrandmaMovement : MonoBehaviour{
 
     private Transform[] waypoints;
     private int currentWaypointIndex;
-    private bool isWaiting;
+    public bool isWaiting;
     void Start(){
         waypoints = new Transform[grandmaTrack.childCount];
         for(int i = 0; i < grandmaTrack.childCount; i++)

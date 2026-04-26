@@ -15,7 +15,7 @@ public class TVMinigame : MonoBehaviour
 
     public GameObject progressBarObject;
 
-    private bool _isFinished;
+    public bool _isFinished;
     private List<string> _sentences;
     private int _charCount;
     private int _points;
@@ -159,5 +159,6 @@ public class TVMinigame : MonoBehaviour
     public void Score(){
         progressBarObject.GetComponent<ProgressBar>().gameResultHandler(((((float)_points / _charCount) * 100) + 33));
         Debug.Log("Score TV: "+ ((((float)_points / _charCount) * 100) + 33));
+        Debug.Log(_isFinished);
     }
 }

@@ -475,6 +475,7 @@ MonoBehaviour:
   sentencesCount: 1
   tvPanel: {fileID: 35620212}
   progressBarObject: {fileID: 1427004505}
+  _isFinished: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3039,10 +3040,10 @@ GameObject:
   - component: {fileID: 732846334}
   - component: {fileID: 732846333}
   - component: {fileID: 732846335}
-  - component: {fileID: 732846337}
   - component: {fileID: 732846336}
   - component: {fileID: 732846338}
   - component: {fileID: 732846339}
+  - component: {fileID: 732846340}
   m_Layer: 0
   m_Name: Grandma
   m_TagString: Untagged
@@ -3172,7 +3173,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &732846337
+--- !u!114 &732846338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732846332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900a60a05cd21c843b26674ed9b76f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  grandmaTrack: {fileID: 847496988}
+  grandmaSpeed: 2
+  waitTime: 0
+  loopWaypoints: 1
+  isWaiting: 0
+--- !u!114 &732846339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732846332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f85fa6d760c36469781d34b6d082f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  numberOfDays: 0
+  tv: {fileID: 2051685353}
+  tvEvent: {fileID: 483560688}
+  randomEvent: {fileID: 2076532136}
+  counterMinigame: 0
+--- !u!70 &732846340
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3202,46 +3237,13 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.27}
-  m_Size: {x: 0.92, y: 1.71}
+  m_Offset: {x: 0, y: -0.16}
+  m_Size: {x: 1.18, y: 2.1333334}
   m_Direction: 0
---- !u!114 &732846338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732846332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 900a60a05cd21c843b26674ed9b76f8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  grandmaTrack: {fileID: 847496988}
-  grandmaSpeed: 2
-  waitTime: 0
-  loopWaypoints: 1
---- !u!114 &732846339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732846332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40f85fa6d760c36469781d34b6d082f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  numberOfDays: 0
-  tv: {fileID: 2051685353}
-  tvEvent: {fileID: 483560688}
-  randomEvent: {fileID: 2076532136}
-  counterMinigame: 0
 --- !u!1 &738786496
 GameObject:
   m_ObjectHideFlags: 0
@@ -3577,7 +3579,7 @@ Transform:
   m_GameObject: {fileID: 826228480}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.39, y: 0.1, z: 0}
+  m_LocalPosition: {x: 0.39, y: 0.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3804,7 +3806,7 @@ Transform:
   m_GameObject: {fileID: 1198578380}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.19, y: 0.33, z: 0}
+  m_LocalPosition: {x: 2.19, y: 0.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4146,7 +4148,7 @@ Transform:
   m_GameObject: {fileID: 1467799046}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 7.07, y: 2.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7828,11 +7830,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3490049481024846361, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2433201
+      value: 2.24
       objectReference: {fileID: 0}
     - target: {fileID: 3490049481024846361, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.42075
+      value: 3.54
       objectReference: {fileID: 0}
     - target: {fileID: 3490049481024846361, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8388,10 +8390,10 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 1
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0458169, y: 0.09163332}
+  m_Offset: {x: -0.48304367, y: 0.6917399}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8401,7 +8403,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.7907, y: 6.806633}
+  m_Size: {x: 3.7329788, y: 5.6064205}
   m_EdgeRadius: 0
 --- !u!212 &2051685354
 SpriteRenderer:
