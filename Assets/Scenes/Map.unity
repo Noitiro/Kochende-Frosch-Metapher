@@ -6131,7 +6131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   grandmaTrack: {fileID: 847496988}
-  grandmaSpeed: 7
+  grandmaSpeed: 2
   waitTime: 0
   loopWaypoints: 1
   isWaiting: 0
