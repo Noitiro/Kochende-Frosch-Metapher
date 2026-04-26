@@ -95,7 +95,7 @@ public class EventManger : MonoBehaviour
 
         Invoke(nameof(LoadNextCard), 0.0f);
         ShowResponse(currentCardData.LeftResponse, currentCardData.Story);
-        isFinishRandomEvent = true;
+        Invoke(nameof(waitFinish), 2.0f);
     }
 
     private void HandleRightDecision()
@@ -109,20 +109,23 @@ public class EventManger : MonoBehaviour
 
         Invoke(nameof(LoadNextCard), 0.0f);
         ShowResponse(currentCardData.LeftResponse, currentCardData.Story);
-        isFinishRandomEvent = true;
-
+        Invoke(nameof(waitFinish), 2.0f);
     }
     public void ShowResponse(string resultText, string storyText)
     {
       
         responseResultText.text = resultText;
         responsePanel.SetActive(true);
-        Invoke(nameof(paneldead), 3f);
+        Invoke(nameof(paneldead), 2.0f);
 
 
     }
     public void paneldead()
     {
                 responsePanel.SetActive(false);
+    }
+    private void waitFinish()
+    {
+        isFinishRandomEvent = true;
     }
 }

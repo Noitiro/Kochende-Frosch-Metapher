@@ -12,9 +12,9 @@ public class GameManager : MonoBehaviour{
     private GrandmaMovement grandmaMovement;
     private TVMinigame tvMinigame;
     private EventManger eventManger;
-    private int counterDay;
-    private int counterRandomEvent;
-    private int counterMinigame;
+    [SerializeField] private int counterDay;
+    [SerializeField] private int counterRandomEvent;
+    [SerializeField] private int counterMinigame;
 
     [SerializeField] private float time;
     
@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour{
     }
 
     void Start(){
+        numberOfDays = 8;
         counterMinigame = 1;
         counterRandomEvent = 1;
         counterDay = 1;
@@ -36,12 +37,18 @@ public class GameManager : MonoBehaviour{
             grandmaMovement.isWaiting = false;
             counterMinigame++;
             Debug.Log(counterMinigame);
+            tvMinigame._isFinished = false;
         }
         if(eventManger.isFinishRandomEvent == true && counterRandomEvent == counterDay){
             cameraMovement.canCameraMove = true;
             grandmaMovement.isWaiting = false;
             counterRandomEvent++;
+            counterDay++;
+            eventManger.isFinishRandomEvent = false;
+        }
+        if(counterDay == numberOfDays){
             endGame();
+            counterDay++;
         }
     }
     private void OnTriggerEnter2D(Collider2D other) {
@@ -64,6 +71,7 @@ public class GameManager : MonoBehaviour{
         randomEvent.GetComponent<EventManger>().StartEventSequence();
     }
     void endGame(){
+        grandmaMovement.isWaiting = true;
         cameraMovement.canCameraMove = false;
         EndingCard.generateEndCard();
         Debug.Log("END GAME");

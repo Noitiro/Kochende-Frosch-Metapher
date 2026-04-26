@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: da86fd5dc043092488b5923f96211220
+guid: a99a83378bd888f4a8490abbae7c6bbe
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,7 +118,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
+        width: 128
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -138,9 +138,9 @@ TextureImporter:
       name: noSignalTV-Sheet_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 128
         y: 0
-        width: 160
+        width: 128
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 019faa3e500cba848873aaed036e869f
-      internalID: 603730613
+      spriteID: 7f54b4d2a00d4c142b9ccca1dcf58853
+      internalID: 949880446
       vertices: []
       indices: 
       edges: []
@@ -160,9 +160,9 @@ TextureImporter:
       name: noSignalTV-Sheet_2
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 0
-        width: 160
+        width: 128
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40df2834fb506544695ca1d75b8e9d17
-      internalID: 1505036912
+      spriteID: 283cdaa131935604f9f774585280c439
+      internalID: 1981259975
       vertices: []
       indices: 
       edges: []
@@ -182,9 +182,9 @@ TextureImporter:
       name: noSignalTV-Sheet_3
       rect:
         serializedVersion: 2
-        x: 480
+        x: 384
         y: 0
-        width: 160
+        width: 128
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -194,8 +194,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 159d17735339eaf49b088d4dfdf45665
-      internalID: 1929312034
+      spriteID: 6c1ef03f97a79d34eb891208ac3492c4
+      internalID: 28295163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noSignalTV-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f8333f41d0ae640a35e9f7c248adba
+      internalID: 1429912328
       vertices: []
       indices: 
       edges: []
@@ -204,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8f765faaadd0b1f4fa3e628c796b21f9
+    spriteID: 4b053eb7c0827d84dab2f25c91e5876f
     internalID: 0
     vertices: []
     indices: 
@@ -214,12 +236,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       noSignalTV-Sheet_0: 295786094783606641
-      noSignalTV-Sheet_1: 603730613
-      noSignalTV-Sheet_2: 1505036912
-      noSignalTV-Sheet_3: 1929312034
+      noSignalTV-Sheet_1: 949880446
+      noSignalTV-Sheet_2: 1981259975
+      noSignalTV-Sheet_3: 28295163
+      noSignalTV-Sheet_4: 1429912328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
