@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour{
     [SerializeField] private GameObject tvEvent;
     [SerializeField] private GameObject randomEvent;
     [SerializeField] private EndingCard EndingCard;
+    [SerializeField] private CameraMovement cameraMovement;
     private GrandmaMovement grandmaMovement;
     private TVMinigame tvMinigame;
     private EventManger eventManger;
@@ -31,11 +32,13 @@ public class GameManager : MonoBehaviour{
     }
     void Update(){
         if(tvMinigame._isFinished == true && counterMinigame == counterDay){
+            cameraMovement.canCameraMove = true;
             grandmaMovement.isWaiting = false;
             counterMinigame++;
             Debug.Log(counterMinigame);
         }
         if(eventManger.isFinishRandomEvent == true && counterRandomEvent == counterDay){
+            cameraMovement.canCameraMove = true;
             grandmaMovement.isWaiting = false;
             counterRandomEvent++;
             endGame();
@@ -50,15 +53,18 @@ public class GameManager : MonoBehaviour{
     }
     void startTv(){
         grandmaMovement.isWaiting = true;
+        cameraMovement.canCameraMove = false;
         Debug.Log ("Start TV minigame");
         tvMinigame.StartTVMinigame();
     }
     void startEvent(){
         grandmaMovement.isWaiting = true;
+        cameraMovement.canCameraMove = false;
         Debug.Log ("Start random evenet");
         randomEvent.GetComponent<EventManger>().StartEventSequence();
     }
     void endGame(){
+        cameraMovement.canCameraMove = false;
         EndingCard.generateEndCard();
         Debug.Log("END GAME");
     }
