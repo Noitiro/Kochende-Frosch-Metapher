@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class EventManger : MonoBehaviour
@@ -14,17 +15,20 @@ public class EventManger : MonoBehaviour
     public int maxEvents = 5;
     private int eventsPlayed = 0;
 
-    [Header("Zewn�trzne Systemy")]
+    [Header("Zewnetrzne Systemy")]
     public GameObject progressBarObject;
     public bool isFinishRandomEvent;
     private GameObject currentCardObject;
     private EventCardSO currentCardData;
 
+    public GameObject responsePanel;
+    public TextMeshProUGUI responseResultText;
+
     void Update()
     {
-        // if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) {
-        //     StartEventSequence();
-        // }
+//        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) {
+ //           StartEventSequence();
+  //       }
     }
 
     void Start()
@@ -89,7 +93,8 @@ public class EventManger : MonoBehaviour
             progressBarObject.SendMessage("randomEventsHandler", currentCardData.isLeftOptionNegative, SendMessageOptions.DontRequireReceiver);
         }
 
-        Invoke(nameof(LoadNextCard), 0.5f);
+        Invoke(nameof(LoadNextCard), 0.0f);
+        ShowResponse(currentCardData.LeftResponse, currentCardData.Story);
         isFinishRandomEvent = true;
     }
 
@@ -102,7 +107,22 @@ public class EventManger : MonoBehaviour
             progressBarObject.SendMessage("randomEventsHandler", currentCardData.isRightOptionNegative, SendMessageOptions.DontRequireReceiver);
         }
 
-        Invoke(nameof(LoadNextCard), 0.5f);
+        Invoke(nameof(LoadNextCard), 0.0f);
+        ShowResponse(currentCardData.LeftResponse, currentCardData.Story);
         isFinishRandomEvent = true;
+
+    }
+    public void ShowResponse(string resultText, string storyText)
+    {
+      
+        responseResultText.text = resultText;
+        responsePanel.SetActive(true);
+        Invoke(nameof(paneldead), 3f);
+
+
+    }
+    public void paneldead()
+    {
+                responsePanel.SetActive(false);
     }
 }
