@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 73c4b16f683ac2d4ab6e0867962d1f86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8448201431686999267
+    second: Granny_JumpOffCouch_0
+  - first:
+      213: -195365184658683458
+    second: Granny_JumpOffCouch_1
+  - first:
+      213: -1504516774500824923
+    second: Granny_JumpOffCouch_2
+  - first:
+      213: -3717698184716609335
+    second: Granny_JumpOffCouch_3
+  - first:
+      213: 8870515542431968217
+    second: Granny_JumpOffCouch_4
+  - first:
+      213: 4369405297894228508
+    second: Granny_JumpOffCouch_5
+  - first:
+      213: 2838396623530848756
+    second: Granny_JumpOffCouch_6
+  - first:
+      213: 6718274637572957408
+    second: Granny_JumpOffCouch_7
+  - first:
+      213: 2861620749692526156
+    second: Granny_JumpOffCouch_8
+  - first:
+      213: 1562470374628492911
+    second: Granny_JumpOffCouch_9
+  - first:
+      213: 6584186075908499338
+    second: Granny_JumpOffCouch_10
+  - first:
+      213: -3016863527894484341
+    second: Granny_JumpOffCouch_11
+  - first:
+      213: -7005551841485059144
+    second: Granny_JumpOffCouch_12
+  - first:
+      213: -71533362814549144
+    second: Granny_JumpOffCouch_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec66ae017a0e3570800000000000000
+      internalID: 8448201431686999267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9c0fe466ce94df0800000000000000
+      internalID: -195365184658683458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8034107f1ee1be0800000000000000
+      internalID: -1504516774500824923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c81addb235186cc0800000000000000
+      internalID: -3717698184716609335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db2d3943e66a1b70800000000000000
+      internalID: 8870515542431968217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1202b4e7fe33ac30800000000000000
+      internalID: 4369405297894228508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 7
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1793dc0b2046720800000000000000
+      internalID: 2838396623530848756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 7
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e46d0c103b1c3d50800000000000000
+      internalID: 6718274637572957408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e5f4b09e486b720800000000000000
+      internalID: 2861620749692526156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f668dc307820fa510800000000000000
+      internalID: 1562470374628492911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87699df95abf5b50800000000000000
+      internalID: 6584186075908499338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_11
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 0
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a740cfa92f126d0800000000000000
+      internalID: -3016863527894484341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_12
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 0
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb03b897b747ce90800000000000000
+      internalID: -7005551841485059144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_JumpOffCouch_13
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86389d719ccd10ff0800000000000000
+      internalID: -71533362814549144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Granny_JumpOffCouch_0: 8448201431686999267
+      Granny_JumpOffCouch_1: -195365184658683458
+      Granny_JumpOffCouch_10: 6584186075908499338
+      Granny_JumpOffCouch_11: -3016863527894484341
+      Granny_JumpOffCouch_12: -7005551841485059144
+      Granny_JumpOffCouch_13: -71533362814549144
+      Granny_JumpOffCouch_2: -1504516774500824923
+      Granny_JumpOffCouch_3: -3717698184716609335
+      Granny_JumpOffCouch_4: 8870515542431968217
+      Granny_JumpOffCouch_5: 4369405297894228508
+      Granny_JumpOffCouch_6: 2838396623530848756
+      Granny_JumpOffCouch_7: 6718274637572957408
+      Granny_JumpOffCouch_8: 2861620749692526156
+      Granny_JumpOffCouch_9: 1562470374628492911
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
