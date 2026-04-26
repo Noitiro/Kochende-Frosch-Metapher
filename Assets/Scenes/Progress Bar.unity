@@ -2025,6 +2025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CameraMovement
   cameraSpeed: 15
   rb: {fileID: 1248109088}
+  border: {fileID: 0}
 --- !u!114 &1248109092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2176,7 +2177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4512633070264445626, guid: 1c38505affec7054b99b9e9d5f163e2e, type: 3}
+  m_Sprite: {fileID: 3247665240656236387, guid: f280e39fbff89a5409aa55ebd53c81c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
