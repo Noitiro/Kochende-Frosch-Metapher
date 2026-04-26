@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7fe33865446ae6f42845b25c2d5ba762
+guid: e8c5959c0b6fc8546a293fae44ab3619
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5515439225188256779
-    second: WallTile_0
+      213: -1272677867225930765
+    second: Office_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WallTile_0
+      name: Office_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0c0a95d0c6ca8c40800000000000000
-      internalID: 5515439225188256779
+      spriteID: 3f32f72093a865ee0800000000000000
+      internalID: -1272677867225930765
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WallTile_0: 5515439225188256779
+      Office_0: -1272677867225930765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
