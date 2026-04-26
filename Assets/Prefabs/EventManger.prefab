@@ -58,3 +58,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a32533761b7af1b4e9b5881b90868ca7, type: 2}
   maxEvents: 1
   progressBarObject: {fileID: 0}
+  isFinishRandomEvent: 0
