@@ -1813,7 +1813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1272677867225930765, guid: e8c5959c0b6fc8546a293fae44ab3619, type: 3}
+  m_Sprite: {fileID: 2765249999849177701, guid: 994e95ae03c93d34d8d27e58322b14c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.79
 --- !u!222 &988307246
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2512,6 +2512,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IntroSequence
   messageText: {fileID: 1492853272}
   uiRoot: {fileID: 1450244714}
+  uiCanvasGroup: {fileID: 0}
+  animatedImage: {fileID: 988307244}
+  imageSizeStart: {x: 960, y: 540}
+  imageSizeEnd: {x: 1344, y: 756}
   messages:
   - message: Hello comrade, welcome to the Center for Digital Evaluation.
     duration: 5
@@ -2531,7 +2535,8 @@ MonoBehaviour:
     duration: 5
   - message: Glory to the Supreme Leader.
     duration: 5
-  fadeDuration: 0.3
+  fadeInDuration: 1
+  messageFadeDuration: 0.5
 --- !u!1 &1467799046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2675,7 +2680,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 250}
+  m_AnchoredPosition: {x: 0, y: 300}
   m_SizeDelta: {x: 934.5428, y: 118.0132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492853272
