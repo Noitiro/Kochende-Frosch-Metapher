@@ -129,7 +129,7 @@ public class IntroMessageSequence : MonoBehaviour
         uiCanvasGroup.blocksRaycasts = true;
 
         // Image growth runs in parallel with the message loop
-        //StartCoroutine(AnimateImageSize(totalDuration));
+        StartCoroutine(AnimateImageSize(totalDuration));
 
         // Message loop
         for (int i = 0; i < messages.Count; i++)
