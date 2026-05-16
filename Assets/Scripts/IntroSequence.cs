@@ -13,6 +13,8 @@ using TMPro;
 /// </summary>
 public class IntroMessageSequence : MonoBehaviour
 {
+
+    [SerializeField] private string sceneName = "Map";
     [Header("References")]
     [Tooltip("The TextMeshPro field to display messages on.")]
     public TMP_Text messageText;
@@ -158,7 +160,7 @@ public class IntroMessageSequence : MonoBehaviour
         }
 
         // Done — hide everything
-        sceneManager.LoadScene("Map");
+        sceneManager.LoadScene(sceneName);
         uiRoot.SetActive(false);
         _isPlaying = false;
     }

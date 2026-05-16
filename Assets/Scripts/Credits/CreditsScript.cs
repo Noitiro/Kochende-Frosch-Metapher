@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class CreditsScript : MonoBehaviour
 {
-    private float _scrollSpeed = 40f;
+    [SerializeField] private float scrollSpeed = 40f;
     private RectTransform _rectTransform;
     private SceneManagerScript _sceneManager;
     void Start()
@@ -14,7 +14,7 @@ public class CreditsScript : MonoBehaviour
     
     void Update()
     {
-        _rectTransform.anchoredPosition += new Vector2(0, _scrollSpeed * Time.deltaTime);
+        _rectTransform.anchoredPosition += new Vector2(0, scrollSpeed * Time.deltaTime);
         if(Keyboard.current.enterKey.wasPressedThisFrame)
         {
             _sceneManager.LoadScene("Menu");
