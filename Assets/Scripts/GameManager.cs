@@ -1,5 +1,5 @@
 using System.Collections;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour{
@@ -15,24 +15,33 @@ public class GameManager : MonoBehaviour{
     [SerializeField] private int counterDay;
     [SerializeField] private int counterRandomEvent;
     [SerializeField] private int counterMinigame;
+    [SerializeField] private Animator animTv;
+    [SerializeField] private TextMeshProUGUI scoreText;
 
-    [SerializeField] private float time;
-    
+
+    private Animator anim;
+
     IEnumerator Wait(){
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(2);
+        animTv.SetBool("TvOn",true);
+        yield return new WaitForSeconds(2.5f);
+        cameraMovement.canCameraMove = false;
+        tvMinigame.StartTVMinigame();
     }
 
     void Start(){
-        numberOfDays = 8;
+        numberOfDays = 4;
         counterMinigame = 1;
         counterRandomEvent = 1;
         counterDay = 1;
         grandmaMovement = GetComponent<GrandmaMovement>();
         tvMinigame = tvEvent.GetComponent<TVMinigame>();
         eventManger = randomEvent.GetComponent<EventManger>();
+        anim = GetComponent<Animator>();
     }
     void Update(){
         if(tvMinigame._isFinished == true && counterMinigame == counterDay){
+            anim.SetTrigger("GrandmaTvOff");
             cameraMovement.canCameraMove = true;
             grandmaMovement.isWaiting = false;
             counterMinigame++;
@@ -50,6 +59,7 @@ public class GameManager : MonoBehaviour{
             endGame();
             counterDay++;
         }
+        scoreText.text = "Day: " + counterDay + "/" + (numberOfDays-1);
     }
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.name == "Tv" && tvMinigame._isFinished == false) {
@@ -60,9 +70,8 @@ public class GameManager : MonoBehaviour{
     }
     void startTv(){
         grandmaMovement.isWaiting = true;
-        cameraMovement.canCameraMove = false;
-        Debug.Log ("Start TV minigame");
-        tvMinigame.StartTVMinigame();
+        anim.SetTrigger("GrandmaTvOn");
+        StartCoroutine(Wait());
     }
     void startEvent(){
         grandmaMovement.isWaiting = true;
