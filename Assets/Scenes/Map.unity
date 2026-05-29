@@ -627,10 +627,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -7243,7 +7243,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 960, y: 2.7406063}
-  m_SizeDelta: {x: 1823.34, y: 59.4229}
+  m_SizeDelta: {x: 2242.99, y: 59.4229}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &805225977
 MonoBehaviour:
@@ -11594,11 +11594,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1320329849578100728, guid: f615212fdcb4ac243a9d635de7f8d41a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -228
+      value: 334
       objectReference: {fileID: 0}
     - target: {fileID: 2026295303228760625, guid: f615212fdcb4ac243a9d635de7f8d41a, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 381
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026295303228760625, guid: f615212fdcb4ac243a9d635de7f8d41a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 152
       objectReference: {fileID: 0}
     - target: {fileID: 2520977751784526817, guid: f615212fdcb4ac243a9d635de7f8d41a, type: 3}
       propertyPath: m_LocalPosition.x
