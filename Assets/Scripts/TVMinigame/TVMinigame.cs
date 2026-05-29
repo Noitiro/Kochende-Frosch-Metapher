@@ -8,6 +8,7 @@ using Random = UnityEngine.Random;
 
 public class TVMinigame : MonoBehaviour
 {
+    [SerializeField] private Animator animGrandma;
     [SerializeField] private TextAsset sentencesFile;
     [SerializeField] private TextMeshProUGUI wordText;
     [SerializeField] private int sentencesCount = 5;
@@ -133,13 +134,15 @@ public class TVMinigame : MonoBehaviour
             
             _textAnimation.SpeedUp(speedUp);
         }
-
+        
+        tvPanel.SetActive(false);
+        animGrandma.SetTrigger("GrandmaTvOff");
+        yield return new WaitForSeconds(3);
         _isFinished = true;
         Keyboard.current.onTextInput -= OnTextInput;
         _textAnimation.enabled = false;
         wordText.SetText("");
         Score();
-        tvPanel.SetActive(false);
     }
 
     private void UpdateText()
