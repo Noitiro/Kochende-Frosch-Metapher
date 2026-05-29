@@ -11342,7 +11342,7 @@ PrefabInstance:
       objectReference: {fileID: 1948609298}
     - target: {fileID: 7276866001593186843, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
       propertyPath: masterDeck.Array.size
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7276866001593186843, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
       propertyPath: 'masterDeck.Array.data[0]'
@@ -11360,6 +11360,26 @@ PrefabInstance:
       propertyPath: 'masterDeck.Array.data[3]'
       value: 
       objectReference: {fileID: 11400000, guid: 597bcc93b0486eb45b7d5b39ff2a8321, type: 2}
+    - target: {fileID: 7276866001593186843, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
+      propertyPath: 'masterDeck.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: d4f7b28a707f75348ac042658d4cb32b, type: 2}
+    - target: {fileID: 7276866001593186843, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
+      propertyPath: 'masterDeck.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: a2be725c443a7b0498bf44ae020ca1ee, type: 2}
+    - target: {fileID: 7276866001593186843, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
+      propertyPath: 'masterDeck.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c9b23d0d88e387045a9dfb24ce56c73a, type: 2}
+    - target: {fileID: 7276866001593186843, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
+      propertyPath: 'masterDeck.Array.data[7]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c6745765637bc5b4795356709ec60620, type: 2}
+    - target: {fileID: 7276866001593186843, guid: 18cea608a5e321c4399a6765a079160c, type: 3}
+      propertyPath: 'masterDeck.Array.data[8]'
+      value: 
+      objectReference: {fileID: 11400000, guid: d74cef7622068df41acf36ad1fbcf975, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
