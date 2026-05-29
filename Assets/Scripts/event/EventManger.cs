@@ -26,9 +26,9 @@ public class EventManger : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) {
-            StartEventSequence();
-        }
+       // if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) {
+       //     StartEventSequence();
+       // }
     }
 
     void Start()
