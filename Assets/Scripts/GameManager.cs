@@ -6,11 +6,13 @@ public class GameManager : MonoBehaviour{
     [SerializeField] private int numberOfDays;
     [SerializeField] private Collider2D tv;
     [SerializeField] private GameObject tvEvent;
+    [SerializeField] private GameObject radioEvent;
     [SerializeField] private GameObject randomEvent;
     [SerializeField] private EndingCard EndingCard;
     [SerializeField] private CameraMovement cameraMovement;
     private GrandmaMovement grandmaMovement;
     private TVMinigame tvMinigame;
+    private RadioMinigameLogic radioMinigame;
     private EventManger eventManger;
     [SerializeField] private int counterDay;
     [SerializeField] private int counterRandomEvent;
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour{
         counterDay = 1;
         grandmaMovement = GetComponent<GrandmaMovement>();
         tvMinigame = tvEvent.GetComponent<TVMinigame>();
+        radioMinigame = radioEvent.GetComponent<RadioMinigameLogic>();
         eventManger = randomEvent.GetComponent<EventManger>();
         anim = GetComponent<Animator>();
     }
@@ -64,6 +67,8 @@ public class GameManager : MonoBehaviour{
             startTv();
         } else if(other.name == "EventManger") {
             startEvent();
+        }else if(other.name == "Radio") {
+            startRadio();
         }
     }
     void startTv(){
@@ -76,6 +81,10 @@ public class GameManager : MonoBehaviour{
         cameraMovement.canCameraMove = false;
         Debug.Log ("Start random evenet");
         randomEvent.GetComponent<EventManger>().StartEventSequence();
+    }
+    void startRadio()
+    {
+        radioMinigame.StartRadioMinigame();
     }
     void endGame(){
         grandmaMovement.isWaiting = true;

@@ -38,7 +38,10 @@ namespace RadioMinigame
         [SerializeField] private bool smoothEdges = true;
         
         private float _time;
-        
+        private void Start()
+        {
+            InitWave();
+        }
         public float RandomWaveAmplitude { get; private set; }
         public float RandomWaveFrequency { get; private set; }
 

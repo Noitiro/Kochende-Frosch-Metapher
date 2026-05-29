@@ -38,9 +38,9 @@ public class RadioMinigameLogic : MonoBehaviour
         float chosenWaveAmp = amplitudeKnob.CurrentValue;
         float chosenWaveFreq = frequencyKnob.CurrentValue;
 
-        float ampScore = (1f - (Mathf.Clamp01(Mathf.Abs(randomWaveAmp - chosenWaveAmp) / 10f))) * 50f;
-        float freqScore = (1f - Mathf.Clamp01(Mathf.Abs(randomWaveFreq - chosenWaveFreq))) * 50f;
-        float score = ampScore + freqScore;
+        float ampScore = (1f - (Mathf.Clamp01(Mathf.Abs(randomWaveAmp - chosenWaveAmp) / 30f))) * 50f;
+        float freqScore = (1f - Mathf.Clamp01(Mathf.Abs(randomWaveFreq - chosenWaveFreq) / 2f)) * 50f;
+        float score = ampScore + freqScore + 55;
         
         Debug.Log("Score for radio minigame is: " + score);
         progressBarObject.GetComponent<ProgressBar>().gameResultHandler(score);
