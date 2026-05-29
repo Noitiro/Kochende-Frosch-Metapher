@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour{
 
 
     private Animator anim;
+    private Animation animatio;
 
     IEnumerator Wait(){
         yield return new WaitForSeconds(2);
@@ -38,10 +39,15 @@ public class GameManager : MonoBehaviour{
         tvMinigame = tvEvent.GetComponent<TVMinigame>();
         eventManger = randomEvent.GetComponent<EventManger>();
         anim = GetComponent<Animator>();
+        animatio = GetComponent<Animation>();
     }
     void Update(){
         if(tvMinigame._isFinished == true && counterMinigame == counterDay){
             anim.SetTrigger("GrandmaTvOff");
+            // Debug.Log("xddd " + anim.GetCurrentAnimatorStateInfo(1).IsName("GrandmaTvOff"));
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("GrandmaTvOn")){
+                Debug.Log("Jumping");
+            }
             cameraMovement.canCameraMove = true;
             grandmaMovement.isWaiting = false;
             counterMinigame++;

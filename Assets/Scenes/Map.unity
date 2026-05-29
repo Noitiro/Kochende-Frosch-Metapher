@@ -5675,7 +5675,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 16
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5955,7 +5955,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 11
-      m_TileSpriteIndex: 13
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5965,7 +5965,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 11
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 14
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6068,8 +6068,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 722564126, guid: 2dc6712e45118ca47962abfc9bc112d4, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: 7647617590634580812, guid: 26d608bee65b4914d9cbcf12a19bdb16, type: 3}
   - m_RefCount: 10
@@ -6086,16 +6086,16 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -2107225504, guid: 3f2e410fc5cf64d4ea7951c80ab28c42, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -2094256730, guid: 3f2e410fc5cf64d4ea7951c80ab28c42, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 722564126, guid: 2dc6712e45118ca47962abfc9bc112d4, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -1540723813, guid: 7fe33865446ae6f42845b25c2d5ba762, type: 3}
   - m_RefCount: 1
@@ -6668,7 +6668,7 @@ Transform:
   m_GameObject: {fileID: 732846332}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.3, y: 13.25, z: 0}
+  m_LocalPosition: {x: 14.11, y: 12.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8649,7 +8649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -11.36, y: -9.75}
   m_SizeDelta: {x: 2125.6, y: 975.52}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1427004507
