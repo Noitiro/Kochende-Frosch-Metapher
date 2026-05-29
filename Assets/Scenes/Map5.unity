@@ -1000,11 +1000,6 @@ MonoBehaviour:
   minAngle: 0
   maxAngle: 90
   waveDisplay: {fileID: 1932621801}
-  _rect: {fileID: 0}
-  _currentAngle: 0
-  _lastMousePos: {x: 0, y: 0}
-  _isLocked: 0
-  <CurrentValue>k__BackingField: 0
 --- !u!1 &268102040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,7 +1017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &268102041
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6825,8 +6820,7 @@ MonoBehaviour:
   counterDay: 0
   counterRandomEvent: 0
   counterMinigame: 0
-  animTv: {fileID: 0}
-  scoreText: {fileID: 0}
+  time: 0
 --- !u!70 &732846340
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8843,7 +8837,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 5
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -11552,7 +11546,7 @@ GameObject:
   - component: {fileID: 1566782225}
   - component: {fileID: 1566782224}
   m_Layer: 5
-  m_Name: SetButton
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11621,19 +11615,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1566782225}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1960271106}
-        m_TargetAssemblyTypeName: RadioMinigameLogic, Assembly-CSharp
-        m_MethodName: OnButtonClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1566782225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12810,41 +12792,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RadioMinigame.WaveDisplay
   m_Material: {fileID: 0}
-  m_Color:
-    r: 0
-    g: 1
-    b: 0
-    a: 1
+  m_Color: {r: 0.22078538, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 1
-  randomWaveColor:
-    r: 0.3921569
-    g: 0.5843138
-    b: 0.9294118
-    a: 1
-  targetWaveColor:
-    r: 0
-    g: 1
-    b: 0
-    a: 1
   config: {fileID: 11400000, guid: cd64305e91a30db4dac6ea8a2cbc8ee4, type: 2}
   targetWave:
-    amplitude: 10
-    frequency: 2
+    amplitude: 0
+    frequency: 0
   switchDelay: 2
   points: 250
-  amplitude: 10
-  frequency: 2
+  amplitude: 64.23897
+  frequency: 8.809669
   waveSpeed: 1
   lineThickness: 20
   waveStart: 0.01
   waveEnd: 0.99
   smoothEdges: 1
-  _time: 0
-  <RandomWaveAmplitude>k__BackingField: 0
-  <RandomWaveFrequency>k__BackingField: 0
 --- !u!222 &1932621802
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12949,7 +12912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1960271103}
   - component: {fileID: 1960271105}
-  - component: {fileID: 1960271106}
+  - component: {fileID: 1960271104}
   m_Layer: 5
   m_Name: Radio
   m_TagString: Untagged
@@ -12977,15 +12940,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1960271105
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960271102}
-  m_CullTransparentMesh: 1
---- !u!114 &1960271106
+--- !u!114 &1960271104
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12994,16 +12949,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1960271102}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0416c4d32a24c6444b393ac65f32affd, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RadioMinigameLogic
-  setButton: {fileID: 1566782224}
-  radioPanel: {fileID: 268102040}
-  waveDisplay: {fileID: 1932621801}
-  amplitudeKnob: {fileID: 2017714216}
-  frequencyKnob: {fileID: 252483282}
-  progressBarObject: {fileID: 1427004505}
-  isFinished: 0
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1960271105
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960271102}
+  m_CullTransparentMesh: 1
 --- !u!1 &1983068524
 GameObject:
   m_ObjectHideFlags: 0
@@ -13359,11 +13333,6 @@ MonoBehaviour:
   minAngle: -90
   maxAngle: 0
   waveDisplay: {fileID: 1932621801}
-  _rect: {fileID: 0}
-  _currentAngle: 0
-  _lastMousePos: {x: 0, y: 0}
-  _isLocked: 0
-  <CurrentValue>k__BackingField: 0
 --- !u!1 &2042401324
 GameObject:
   m_ObjectHideFlags: 0
