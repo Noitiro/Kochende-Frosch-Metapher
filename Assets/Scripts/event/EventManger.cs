@@ -26,9 +26,9 @@ public class EventManger : MonoBehaviour
 
     void Update()
     {
-//        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) {
- //           StartEventSequence();
-  //       }
+        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) {
+            StartEventSequence();
+        }
     }
 
     void Start()
@@ -108,7 +108,7 @@ public class EventManger : MonoBehaviour
         }
 
         Invoke(nameof(LoadNextCard), 0.0f);
-        ShowResponse(currentCardData.LeftResponse, currentCardData.Story);
+        ShowResponse(currentCardData.RightResponse, currentCardData.Story);
         Invoke(nameof(waitFinish), 2.0f);
     }
     public void ShowResponse(string resultText, string storyText)
