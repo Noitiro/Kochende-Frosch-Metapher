@@ -14,7 +14,7 @@ public class EventSwipe : MonoBehaviour
 
     [Header("P³ynnoœæ")]
     public float smoothSpeed = 15f;
-    public float swipeSensitivity = 1f;
+    public float swipeSensitivity = 3f;
 
     public event Action OnSwipedLeft;
     public event Action OnSwipedRight;

@@ -799,8 +799,8 @@ MonoBehaviour:
   maxRotation: 15
   maxXMovement: 300
   maxYMovement: -50
-  smoothSpeed: 15
-  swipeSensitivity: 0.1
+  smoothSpeed: 30
+  swipeSensitivity: 0.4
 --- !u!1 &9135064007346077007
 GameObject:
   m_ObjectHideFlags: 0
