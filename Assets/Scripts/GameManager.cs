@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour{
     [SerializeField] private CameraMovement cameraMovement;
     [SerializeField] private GameObject tutorialTv;
     [SerializeField] private GameObject tutorialPanel;
+    [SerializeField] private GameObject tutorialRadio;
+    [SerializeField] private GameObject tutorialRadioPanel;
 
 
     private GrandmaMovement grandmaMovement;
@@ -40,14 +42,27 @@ public class GameManager : MonoBehaviour{
         }
     }
 
+    private void noWait()
+    {
+        animTv.SetBool("TvOn",true);
+        cameraMovement.canCameraMove = false;
+        if(counterDay == 1 && tutorialTv.GetComponent<Tutorial>().endTutorial == false){
+            tutorialPanel.SetActive(true);
+            Debug.Log(tutorialTv.GetComponent<Tutorial>().endTutorial);
+        }else{
+            tvMinigame.StartTVMinigame();
+        }
+    }
+
     IEnumerator Sleep(){
         fadeInOut.FadeOut();
         cameraMovement.canCameraMove = false;
         grandmaMovement.isWaiting = true;
         yield return new WaitForSeconds(3f);
+        fadeInOut.FadeIn();
+        yield return new WaitForSeconds(3f);
         grandmaMovement.isWaiting = false;
         cameraMovement.canCameraMove = true;
-        fadeInOut.FadeIn();
     }
 
     void Start(){
@@ -93,14 +108,14 @@ public class GameManager : MonoBehaviour{
             startTv();
         } else if(other.name == "EventManger" && counterDay == 1) {
             startEvent();
-        }else if(other.name == "Radio") {
+        }else if(other.name == "Radio" || other.name == "Radio1" ) {
             startRadio();
         }else if(other.name == "Bed" || other.name == "Bed1"){
             counterDay++;
             StartCoroutine(Sleep());
-        }else if(other.name == "EventManger1" && counterDay == 2) {
+        }else if(other.name == "EventManger1") {
             startEvent();
-        }else if(other.name == "EventManger2" && counterDay == 3) {
+        }else if(other.name == "EventManger2") {
             startEvent();
         }
     }
@@ -118,7 +133,7 @@ public class GameManager : MonoBehaviour{
     }
     public void startTv2(){
         grandmaMovement.isWaiting = true;
-        StartCoroutine(Wait());
+        noWait();
     }
     void startEvent(){
         grandmaMovement.isWaiting = true;
@@ -126,10 +141,16 @@ public class GameManager : MonoBehaviour{
         Debug.Log ("Start random evenet");
         randomEvent.GetComponent<EventManger>().StartEventSequence();
     }
-    void startRadio(){
+    public void startRadio(){
         grandmaMovement.isWaiting = true;
         cameraMovement.canCameraMove = false;
-        radioMinigame.StartRadioMinigame();
+        if(counterDay == 2 && tutorialRadio.GetComponent<Tutorial>().endTutorial == false){
+            tutorialRadioPanel.SetActive(true);
+        }
+        else
+        {
+            radioMinigame.StartRadioMinigame();
+        }
     }
     void endGame(){
         grandmaMovement.isWaiting = true;
