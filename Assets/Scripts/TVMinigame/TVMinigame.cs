@@ -137,7 +137,7 @@ public class TVMinigame : MonoBehaviour
         
         tvPanel.SetActive(false);
         animGrandma.SetTrigger("GrandmaTvOff");
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         _isFinished = true;
         Keyboard.current.onTextInput -= OnTextInput;
         _textAnimation.enabled = false;

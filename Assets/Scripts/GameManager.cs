@@ -10,9 +10,14 @@ public class GameManager : MonoBehaviour{
     [SerializeField] private GameObject randomEvent;
     [SerializeField] private EndingCard EndingCard;
     [SerializeField] private CameraMovement cameraMovement;
+    [SerializeField] private GameObject tutorialTv;
+    [SerializeField] private GameObject tutorialPanel;
+
+
     private GrandmaMovement grandmaMovement;
     private TVMinigame tvMinigame;
     private RadioMinigameLogic radioMinigame;
+    private FadeInOut fadeInOut;
     private EventManger eventManger;
     [SerializeField] private int counterDay;
     [SerializeField] private int counterRandomEvent;
@@ -23,11 +28,25 @@ public class GameManager : MonoBehaviour{
     private Animator anim;
 
     IEnumerator Wait(){
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(2f);
         animTv.SetBool("TvOn",true);
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(2f);
         cameraMovement.canCameraMove = false;
-        tvMinigame.StartTVMinigame();
+        if(counterDay == 1 && tutorialTv.GetComponent<Tutorial>().endTutorial == false){
+            tutorialPanel.SetActive(true);
+            Debug.Log(tutorialTv.GetComponent<Tutorial>().endTutorial);
+        }else{
+            tvMinigame.StartTVMinigame();
+        }
+    }
+
+    IEnumerator Sleep(){
+        fadeInOut.FadeOut();
+        cameraMovement.canCameraMove = false;
+        grandmaMovement.isWaiting = true;
+        yield return new WaitForSeconds(3f);
+        grandmaMovement.isWaiting = false;
+        cameraMovement.canCameraMove = true;
     }
 
     void Start(){
@@ -40,9 +59,11 @@ public class GameManager : MonoBehaviour{
         radioMinigame = radioEvent.GetComponent<RadioMinigameLogic>();
         eventManger = randomEvent.GetComponent<EventManger>();
         anim = GetComponent<Animator>();
+        fadeInOut = GetComponent<FadeInOut>();
     }
     void Update(){
         if(tvMinigame._isFinished == true && counterMinigame == counterDay){
+            animTv.SetBool("TvOn",false);
             cameraMovement.canCameraMove = true;
             grandmaMovement.isWaiting = false;
             counterMinigame++;
@@ -69,9 +90,18 @@ public class GameManager : MonoBehaviour{
             startEvent();
         }else if(other.name == "Radio") {
             startRadio();
+        }else if(other.name == "Bed"){
+            StartCoroutine(Sleep());
         }
     }
-    void startTv(){
+
+    private void OnTriggerExit2D(Collider2D other) {
+        if(other.name == "Bed") {
+            fadeInOut.FadeIn();
+        }
+    }
+
+    public void startTv(){
         grandmaMovement.isWaiting = true;
         anim.SetTrigger("GrandmaTvOn");
         StartCoroutine(Wait());
