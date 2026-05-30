@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine.InputSystem;
 
 /// <summary>
 /// Displays a sequence of messages on a TMP text field.
@@ -92,6 +92,17 @@ public class IntroMessageSequence : MonoBehaviour
             animatedImage.sizeDelta = imageSizeStart;
 
         //Play();
+    }
+
+    private void Update()
+    {
+        if (_isPlaying && Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            StopAllCoroutines();
+            sceneManager.LoadScene(sceneName);
+            uiRoot.SetActive(false);
+            _isPlaying = false;
+        }
     }
 
     // ── Public API ────────────────────────────────────────────────────────────
