@@ -28,9 +28,9 @@ public class GameManager : MonoBehaviour{
     private Animator anim;
 
     IEnumerator Wait(){
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         animTv.SetBool("TvOn",true);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         cameraMovement.canCameraMove = false;
         if(counterDay == 1 && tutorialTv.GetComponent<Tutorial>().endTutorial == false){
             tutorialPanel.SetActive(true);
@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour{
         yield return new WaitForSeconds(3f);
         grandmaMovement.isWaiting = false;
         cameraMovement.canCameraMove = true;
+        fadeInOut.FadeIn();
     }
 
     void Start(){
@@ -74,24 +75,33 @@ public class GameManager : MonoBehaviour{
             cameraMovement.canCameraMove = true;
             grandmaMovement.isWaiting = false;
             counterRandomEvent++;
-            counterDay++;
             eventManger.isFinishRandomEvent = false;
+        }
+        if(radioMinigame.isFinished == true){
+            cameraMovement.canCameraMove = true;
+            grandmaMovement.isWaiting = false;
+            radioMinigame.isFinished = false;
         }
         if(counterDay == numberOfDays){
             endGame();
             counterDay++;
         }
-        scoreText.text = "Day: " + counterDay + "/" + (numberOfDays-1);
+        scoreText.text = "Day: " + (counterDay-1) + "/" + (numberOfDays-1);
     }
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.name == "Tv" && tvMinigame._isFinished == false) {
             startTv();
-        } else if(other.name == "EventManger") {
+        } else if(other.name == "EventManger" && counterDay == 1) {
             startEvent();
         }else if(other.name == "Radio") {
             startRadio();
-        }else if(other.name == "Bed"){
+        }else if(other.name == "Bed" || other.name == "Bed1"){
+            counterDay++;
             StartCoroutine(Sleep());
+        }else if(other.name == "EventManger1" && counterDay == 2) {
+            startEvent();
+        }else if(other.name == "EventManger2" && counterDay == 3) {
+            startEvent();
         }
     }
 
@@ -106,14 +116,19 @@ public class GameManager : MonoBehaviour{
         anim.SetTrigger("GrandmaTvOn");
         StartCoroutine(Wait());
     }
+    public void startTv2(){
+        grandmaMovement.isWaiting = true;
+        StartCoroutine(Wait());
+    }
     void startEvent(){
         grandmaMovement.isWaiting = true;
         cameraMovement.canCameraMove = false;
         Debug.Log ("Start random evenet");
         randomEvent.GetComponent<EventManger>().StartEventSequence();
     }
-    void startRadio()
-    {
+    void startRadio(){
+        grandmaMovement.isWaiting = true;
+        cameraMovement.canCameraMove = false;
         radioMinigame.StartRadioMinigame();
     }
     void endGame(){
