@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3b2dfad5c5a68b49a474d8fde25971e
+guid: 1fcc705a9f09e8f449e789bf38beb29e
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -123,11 +123,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1599
+        y: 1601
         width: 1600
-        height: 1092
+        height: 1088
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -145,11 +145,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 309
-        y: 69
-        width: 262
-        height: 262
+        y: 70
+        width: 261
+        height: 260
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,12 +166,12 @@ TextureImporter:
       name: radioSheets_2
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 69
-        width: 262
-        height: 262
+        x: 1030
+        y: 71
+        width: 260
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9a5b737c1e307c14b898701980f35328
     internalID: 0
     vertices: []
     indices: 

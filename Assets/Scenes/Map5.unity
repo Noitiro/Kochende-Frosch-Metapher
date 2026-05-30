@@ -942,8 +942,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 640, y: -270}
-  m_SizeDelta: {x: 400, y: 400}
+  m_AnchoredPosition: {x: 680, y: -360}
+  m_SizeDelta: {x: 330, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252483280
 MonoBehaviour:
@@ -965,7 +965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8881135623113425294, guid: a548ae62c726af14fbb681623958f965, type: 3}
+  m_Sprite: {fileID: -4926555074510951255, guid: 1fcc705a9f09e8f449e789bf38beb29e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1057,14 +1057,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -4906930384906887345, guid: 1fcc705a9f09e8f449e789bf38beb29e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1468,6 +1468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4de537683691f6c49885d4df6c4658c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TVMinigame
+  animGrandma: {fileID: 0}
   sentencesFile: {fileID: 4900000, guid: 7fb702fc78347474b884beebabdf5c62, type: 3}
   wordText: {fileID: 805225977}
   sentencesCount: 3
@@ -6504,7 +6505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -640, y: -25}
+  m_AnchoredPosition: {x: -680, y: -162}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666273527
@@ -6814,13 +6815,17 @@ MonoBehaviour:
   numberOfDays: 0
   tv: {fileID: 2051685353}
   tvEvent: {fileID: 483560688}
+  radioEvent: {fileID: 0}
   randomEvent: {fileID: 2076532136}
   EndingCard: {fileID: 873855282}
   cameraMovement: {fileID: 1248109091}
+  tutorialTv: {fileID: 0}
+  tutorialPanel: {fileID: 0}
   counterDay: 0
   counterRandomEvent: 0
   counterMinigame: 0
-  time: 0
+  animTv: {fileID: 0}
+  scoreText: {fileID: 0}
 --- !u!70 &732846340
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8020,8 +8025,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4281389878
+  m_fontColor: {r: 0.21176472, g: 0.82745105, b: 0.18823531, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11629,7 +11634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16409636, g: 0.348, b: 0, a: 1}
+  m_Color: {r: 0.21755056, g: 0.461, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11992,7 +11997,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 640, y: -25}
+  m_AnchoredPosition: {x: 680, y: -162}
   m_SizeDelta: {x: 220, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748865616
@@ -12529,7 +12534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1890771848
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12767,17 +12772,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932621799}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0015745205, w: 0.99999875}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 268102041}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.18}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 270}
-  m_SizeDelta: {x: 980.0734, y: 277.4633}
+  m_AnchoredPosition: {x: 17.9752, y: 87.7859}
+  m_SizeDelta: {x: 1352.6104, y: 344.861}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932621801
 MonoBehaviour:
@@ -12792,17 +12797,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RadioMinigame.WaveDisplay
   m_Material: {fileID: 0}
-  m_Color: {r: 0.22078538, g: 1, b: 0, a: 1}
+  m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  randomWaveColor: {r: 0.3921569, g: 0.5843138, b: 0.9294118, a: 1}
+  targetWaveColor: {r: 0, g: 1, b: 0, a: 1}
   config: {fileID: 11400000, guid: cd64305e91a30db4dac6ea8a2cbc8ee4, type: 2}
   targetWave:
     amplitude: 0
     frequency: 0
   switchDelay: 2
   points: 250
-  amplitude: 64.23897
-  frequency: 8.809669
+  amplitude: 0
+  frequency: 0
   waveSpeed: 1
   lineThickness: 20
   waveStart: 0.01
@@ -13275,8 +13282,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -640, y: -270}
-  m_SizeDelta: {x: 400, y: 400}
+  m_AnchoredPosition: {x: -680, y: -360}
+  m_SizeDelta: {x: 330, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2017714214
 MonoBehaviour:
@@ -13298,7 +13305,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8881135623113425294, guid: a548ae62c726af14fbb681623958f965, type: 3}
+  m_Sprite: {fileID: -3921836846945686615, guid: 1fcc705a9f09e8f449e789bf38beb29e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
