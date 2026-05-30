@@ -1,0 +1,2964 @@
+fileFormatVersion: 2
+guid: 5f3dcc648171f874aab7b661bd871716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8191100179405106997
+    second: StepGranny_bed-Sheet_0
+  - first:
+      213: 7519470746252450375
+    second: StepGranny_bed-Sheet_1
+  - first:
+      213: -4640716375563716463
+    second: StepGranny_bed-Sheet_2
+  - first:
+      213: -8712307406905482923
+    second: StepGranny_bed-Sheet_3
+  - first:
+      213: -6118810856262030429
+    second: StepGranny_bed-Sheet_4
+  - first:
+      213: 5070217264494638709
+    second: StepGranny_bed-Sheet_5
+  - first:
+      213: 4863287650229563951
+    second: StepGranny_bed-Sheet_6
+  - first:
+      213: 6589909042155162392
+    second: StepGranny_bed-Sheet_7
+  - first:
+      213: -1292124496427987826
+    second: StepGranny_bed-Sheet_8
+  - first:
+      213: -6907984741480108351
+    second: StepGranny_bed-Sheet_9
+  - first:
+      213: -2952709750677077580
+    second: StepGranny_bed-Sheet_10
+  - first:
+      213: 739921115767500205
+    second: StepGranny_bed-Sheet_11
+  - first:
+      213: 1275524387940777445
+    second: StepGranny_bed-Sheet_12
+  - first:
+      213: -6966763900994484795
+    second: StepGranny_bed-Sheet_13
+  - first:
+      213: -3380255545996417695
+    second: StepGranny_bed-Sheet_14
+  - first:
+      213: 5377926091387306545
+    second: StepGranny_bed-Sheet_15
+  - first:
+      213: -1565117143096510337
+    second: StepGranny_bed-Sheet_16
+  - first:
+      213: 2682508940218177859
+    second: StepGranny_bed-Sheet_17
+  - first:
+      213: -3923435708973312130
+    second: StepGranny_bed-Sheet_18
+  - first:
+      213: -2308012551342017886
+    second: StepGranny_bed-Sheet_19
+  - first:
+      213: -8742300551364995117
+    second: StepGranny_bed-Sheet_20
+  - first:
+      213: -1408980666661866684
+    second: StepGranny_bed-Sheet_21
+  - first:
+      213: 7978520092231308273
+    second: StepGranny_bed-Sheet_22
+  - first:
+      213: 8781889625308379051
+    second: StepGranny_bed-Sheet_23
+  - first:
+      213: -281522073719556984
+    second: StepGranny_bed-Sheet_24
+  - first:
+      213: -7378230379281600392
+    second: StepGranny_bed-Sheet_25
+  - first:
+      213: 7124068171440807935
+    second: StepGranny_bed-Sheet_26
+  - first:
+      213: -450850983647322494
+    second: StepGranny_bed-Sheet_27
+  - first:
+      213: -7880804253480287744
+    second: StepGranny_bed-Sheet_28
+  - first:
+      213: -3731286745168272381
+    second: StepGranny_bed-Sheet_29
+  - first:
+      213: -4113042490819766604
+    second: StepGranny_bed-Sheet_30
+  - first:
+      213: 3213267912098090508
+    second: StepGranny_bed-Sheet_31
+  - first:
+      213: -8847616647714640605
+    second: StepGranny_bed-Sheet_32
+  - first:
+      213: 6493228366575220102
+    second: StepGranny_bed-Sheet_33
+  - first:
+      213: 8733651361066147487
+    second: StepGranny_bed-Sheet_34
+  - first:
+      213: -2832741670320143569
+    second: StepGranny_bed-Sheet_35
+  - first:
+      213: -830041202295559556
+    second: StepGranny_bed-Sheet_36
+  - first:
+      213: -243351550185672811
+    second: StepGranny_bed-Sheet_37
+  - first:
+      213: -6709761911045401163
+    second: StepGranny_bed-Sheet_38
+  - first:
+      213: 7564759424230455313
+    second: StepGranny_bed-Sheet_39
+  - first:
+      213: 333985231335559343
+    second: StepGranny_bed-Sheet_40
+  - first:
+      213: 6339718824334926129
+    second: StepGranny_bed-Sheet_41
+  - first:
+      213: -6604563448913313582
+    second: StepGranny_bed-Sheet_42
+  - first:
+      213: 8987372813080867466
+    second: StepGranny_bed-Sheet_43
+  - first:
+      213: 198195831118334697
+    second: StepGranny_bed-Sheet_44
+  - first:
+      213: 5028631529147279895
+    second: StepGranny_bed-Sheet_45
+  - first:
+      213: 1150274495206289962
+    second: StepGranny_bed-Sheet_46
+  - first:
+      213: -2179971054338967182
+    second: StepGranny_bed-Sheet_47
+  - first:
+      213: -3762427863020083260
+    second: StepGranny_bed-Sheet_48
+  - first:
+      213: 5154896733763877437
+    second: StepGranny_bed-Sheet_49
+  - first:
+      213: 4573228412296104013
+    second: StepGranny_bed-Sheet_50
+  - first:
+      213: 1397454937415026535
+    second: StepGranny_bed-Sheet_51
+  - first:
+      213: 2273084370783075714
+    second: StepGranny_bed-Sheet_52
+  - first:
+      213: 4591366138193127246
+    second: StepGranny_bed-Sheet_53
+  - first:
+      213: 1110495202405343640
+    second: StepGranny_bed-Sheet_54
+  - first:
+      213: -7905130334097379424
+    second: StepGranny_bed-Sheet_55
+  - first:
+      213: 6518211307217801199
+    second: StepGranny_bed-Sheet_56
+  - first:
+      213: 1382483337819912391
+    second: StepGranny_bed-Sheet_57
+  - first:
+      213: 2284351625393048664
+    second: StepGranny_bed-Sheet_58
+  - first:
+      213: -533789318797090378
+    second: StepGranny_bed-Sheet_59
+  - first:
+      213: 2993221886600806556
+    second: StepGranny_bed-Sheet_60
+  - first:
+      213: -4346333832612408246
+    second: StepGranny_bed-Sheet_61
+  - first:
+      213: -8144718144387337463
+    second: StepGranny_bed-Sheet_62
+  - first:
+      213: -8649537996675102092
+    second: StepGranny_bed-Sheet_63
+  - first:
+      213: -2928586397975121057
+    second: StepGranny_bed-Sheet_64
+  - first:
+      213: 2322989575047145971
+    second: StepGranny_bed-Sheet_65
+  - first:
+      213: 8029655290460757270
+    second: StepGranny_bed-Sheet_66
+  - first:
+      213: 8362715025380664334
+    second: StepGranny_bed-Sheet_67
+  - first:
+      213: -3754383667597687445
+    second: StepGranny_bed-Sheet_68
+  - first:
+      213: -8416551531628613305
+    second: StepGranny_bed-Sheet_69
+  - first:
+      213: -5160476559880213577
+    second: StepGranny_bed-Sheet_70
+  - first:
+      213: 1530551241271086074
+    second: StepGranny_bed-Sheet_71
+  - first:
+      213: 6020070316266771446
+    second: StepGranny_bed-Sheet_72
+  - first:
+      213: 5068647712938266889
+    second: StepGranny_bed-Sheet_73
+  - first:
+      213: -1177968254005013579
+    second: StepGranny_bed-Sheet_74
+  - first:
+      213: -7064437445241835758
+    second: StepGranny_bed-Sheet_75
+  - first:
+      213: 5739848160548172160
+    second: StepGranny_bed-Sheet_76
+  - first:
+      213: -5946810459601406850
+    second: StepGranny_bed-Sheet_77
+  - first:
+      213: -9146128276448575055
+    second: StepGranny_bed-Sheet_78
+  - first:
+      213: 6227169643699906740
+    second: StepGranny_bed-Sheet_79
+  - first:
+      213: -488692242231682861
+    second: StepGranny_bed-Sheet_80
+  - first:
+      213: -381179616502436259
+    second: StepGranny_bed-Sheet_81
+  - first:
+      213: 6064366297408181173
+    second: StepGranny_bed-Sheet_82
+  - first:
+      213: -4088680869620224182
+    second: StepGranny_bed-Sheet_83
+  - first:
+      213: 1201395352260813738
+    second: StepGranny_bed-Sheet_84
+  - first:
+      213: 1467058329261737027
+    second: StepGranny_bed-Sheet_85
+  - first:
+      213: -201250686911521785
+    second: StepGranny_bed-Sheet_86
+  - first:
+      213: 6005523497046457925
+    second: StepGranny_bed-Sheet_87
+  - first:
+      213: 4763256479244417331
+    second: StepGranny_bed-Sheet_88
+  - first:
+      213: 8650132169913086899
+    second: StepGranny_bed-Sheet_89
+  - first:
+      213: -1159155505513149528
+    second: StepGranny_bed-Sheet_90
+  - first:
+      213: 1299350949868330373
+    second: StepGranny_bed-Sheet_91
+  - first:
+      213: 4342971795325605982
+    second: StepGranny_bed-Sheet_92
+  - first:
+      213: 5923225691578924905
+    second: StepGranny_bed-Sheet_93
+  - first:
+      213: 4971356068508452636
+    second: StepGranny_bed-Sheet_94
+  - first:
+      213: 3766710511987337229
+    second: StepGranny_bed-Sheet_95
+  - first:
+      213: -3494853966380032031
+    second: StepGranny_bed-Sheet_96
+  - first:
+      213: -6137844277269106719
+    second: StepGranny_bed-Sheet_97
+  - first:
+      213: 2541656353162503623
+    second: StepGranny_bed-Sheet_98
+  - first:
+      213: 8770542033125905930
+    second: StepGranny_bed-Sheet_99
+  - first:
+      213: 9092337770768318760
+    second: StepGranny_bed-Sheet_100
+  - first:
+      213: 1887015709263699546
+    second: StepGranny_bed-Sheet_101
+  - first:
+      213: 2878781241868418749
+    second: StepGranny_bed-Sheet_102
+  - first:
+      213: 7998564105582518188
+    second: StepGranny_bed-Sheet_103
+  - first:
+      213: -6955074822458799720
+    second: StepGranny_bed-Sheet_104
+  - first:
+      213: 3161553925644491738
+    second: StepGranny_bed-Sheet_105
+  - first:
+      213: 421457834967222883
+    second: StepGranny_bed-Sheet_106
+  - first:
+      213: 7642534805744263475
+    second: StepGranny_bed-Sheet_107
+  - first:
+      213: -9086893026641485358
+    second: StepGranny_bed-Sheet_108
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc09beef8cd535e80800000000000000
+      internalID: -8191100179405106997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a9159cdc68a5860800000000000000
+      internalID: 7519470746252450375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198bf234b0dd89fb0800000000000000
+      internalID: -4640716375563716463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551e46db29aa71780800000000000000
+      internalID: -8712307406905482923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aba2b0f1fd951ba0800000000000000
+      internalID: -6118810856262030429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57671482db70d5640800000000000000
+      internalID: 5070217264494638709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f223a70e95edd7340800000000000000
+      internalID: 4863287650229563951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b0bc7eb5f047b50800000000000000
+      internalID: 6589909042155162392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c44d0dd93711ee0800000000000000
+      internalID: -1292124496427987826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce624a4a78e120a0800000000000000
+      internalID: -6907984741480108351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b18f0a302ed507d0800000000000000
+      internalID: -2952709750677077580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dade123a55ab44a00800000000000000
+      internalID: 739921115767500205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edbe8d3ca293b110800000000000000
+      internalID: 1275524387940777445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5853fb425115f90800000000000000
+      internalID: -6966763900994484795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165e6d28d7be611d0800000000000000
+      internalID: -3380255545996417695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 97
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1320271694b32aa40800000000000000
+      internalID: 5377926091387306545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78bbdd2046974ae0800000000000000
+      internalID: -1565117143096510337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34993882baf2a3520800000000000000
+      internalID: 2682508940218177859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77109b82082d89c0800000000000000
+      internalID: -3923435708973312130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2bd1c10da48ffd0800000000000000
+      internalID: -2308012551342017886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7103c97fb1da680800000000000000
+      internalID: -8742300551364995117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443f93c7c8b427ce0800000000000000
+      internalID: -1408980666661866684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f393ca70c569be60800000000000000
+      internalID: 7978520092231308273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7b135f51a8fd970800000000000000
+      internalID: 8781889625308379051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884b38f5a25d71cf0800000000000000
+      internalID: -281522073719556984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870bce3cf824b9990800000000000000
+      internalID: -7378230379281600392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff556ac146cdd260800000000000000
+      internalID: 7124068171440807935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ed0194b614eb9f0800000000000000
+      internalID: -450850983647322494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0028be62942c1a290800000000000000
+      internalID: -7880804253480287744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3042f17797ec73cc0800000000000000
+      internalID: -3731286745168272381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6999c75a98be6c0800000000000000
+      internalID: -4113042490819766604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e84c43422d79c20800000000000000
+      internalID: 3213267912098090508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32de22c1983f63580800000000000000
+      internalID: -8847616647714640605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685b43bfbc49c1a50800000000000000
+      internalID: 6493228366575220102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 97
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e5478d3a9243970800000000000000
+      internalID: 8733651361066147487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 97
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f230f18957410b8d0800000000000000
+      internalID: -2832741670320143569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a2c3c9ce91b74f0800000000000000
+      internalID: -830041202295559556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 50
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f64afed017f9cf0800000000000000
+      internalID: -243351550185672811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 50
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b551bc771322e2a0800000000000000
+      internalID: -6709761911045401163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 49
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1187b84dd9c6bf860800000000000000
+      internalID: 7564759424230455313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 49
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa09bf16ccd82a400800000000000000
+      internalID: 333985231335559343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 52
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13127547ea43bf750800000000000000
+      internalID: 6339718824334926129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 55
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d04ef22980e754a0800000000000000
+      internalID: -6604563448913313582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 58
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8230b3d4ff89bc70800000000000000
+      internalID: 8987372813080867466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 62
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea85cdee0220c200800000000000000
+      internalID: 198195831118334697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 61
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a2721abb949c540800000000000000
+      internalID: 5028631529147279895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 58
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2276f81f8896ff00800000000000000
+      internalID: 1150274495206289962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 56
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279fd7540ef2fb1e0800000000000000
+      internalID: -2179971054338967182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 54
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7e7a3facb29cbc0800000000000000
+      internalID: -3762427863020083260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 55
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a31dd744fd98740800000000000000
+      internalID: 5154896733763877437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 55
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4802afc20f577f30800000000000000
+      internalID: 4573228412296104013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 55
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7670d3e8cd1c46310800000000000000
+      internalID: 1397454937415026535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 55
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d7401213e9b8f10800000000000000
+      internalID: 2273084370783075714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 55
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4722c43d2fc7bf30800000000000000
+      internalID: 4591366138193127246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 55
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8916520c085496f00800000000000000
+      internalID: 1110495202405343640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 55
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afe5f428d55b4290800000000000000
+      internalID: -7905130334097379424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 55
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefc6a126a6557a50800000000000000
+      internalID: 6518211307217801199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 56
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8f6a265419f2310800000000000000
+      internalID: 1382483337819912391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 59
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c83a543b5a3bf10800000000000000
+      internalID: 2284351625393048664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 57
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1a33451799798f0800000000000000
+      internalID: -533789318797090378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 54
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9004c4727f0a8920800000000000000
+      internalID: 2993221886600806556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 54
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4410e73868bea3c0800000000000000
+      internalID: -4346333832612408246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 54
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9033d10100628fe80800000000000000
+      internalID: -8144718144387337463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 54
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47acfece40ba6f780800000000000000
+      internalID: -8649537996675102092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 54
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53f6a6ff229b57d0800000000000000
+      internalID: -2928586397975121057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 54
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9ee95f5baec3020800000000000000
+      internalID: 2322989575047145971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 54
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ddfb891f01f6f60800000000000000
+      internalID: 8029655290460757270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 54
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04e2ad02055e0470800000000000000
+      internalID: 8362715025380664334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 54
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65cf4622ffb5ebc0800000000000000
+      internalID: -3754383667597687445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 54
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741b18b89f6623b80800000000000000
+      internalID: -8416551531628613305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 54
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb2c9009ed4268b0800000000000000
+      internalID: -5160476559880213577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 40
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb0f76ae3c9d3510800000000000000
+      internalID: 1530551241271086074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 21
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f354f39e069b8350800000000000000
+      internalID: 6020070316266771446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 23
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90118457d34775640800000000000000
+      internalID: 5068647712938266889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 22
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b318573d1407afe0800000000000000
+      internalID: -1177968254005013579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 28
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f6462929316fd90800000000000000
+      internalID: -7064437445241835758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 27
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0813722bd7908af40800000000000000
+      internalID: 5739848160548172160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7471e0056fa87da0800000000000000
+      internalID: -5946810459601406850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 27
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b180247acc621180800000000000000
+      internalID: -9146128276448575055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 32
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b824d84cc95b6650800000000000000
+      internalID: 6227169643699906740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 32
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d89a41bef0d739f0800000000000000
+      internalID: -488692242231682861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 29
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ea0ca8827c5baf0800000000000000
+      internalID: -381179616502436259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 28
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b39dd06405f82450800000000000000
+      internalID: 6064366297408181173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fe95e69661247c0800000000000000
+      internalID: -4088680869620224182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 21
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3af4625b63ca010800000000000000
+      internalID: 1201395352260813738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3448c6417c90c5410800000000000000
+      internalID: 1467058329261737027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cd5d70193053df0800000000000000
+      internalID: -201250686911521785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e37bb4dc7e75350800000000000000
+      internalID: 6005523497046457925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339f073f78c7a1240800000000000000
+      internalID: 4763256479244417331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b339dfc0617b0870800000000000000
+      internalID: 8650132169913086899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab437e853ad9efe0800000000000000
+      internalID: -1159155505513149528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dd77dfdc8380210800000000000000
+      internalID: 1299350949868330373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e585ce976d5554c30800000000000000
+      internalID: 4342971795325605982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 22
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f77074266833250800000000000000
+      internalID: 5923225691578924905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 23
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17cd63410ecdf440800000000000000
+      internalID: 4971356068508452636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 23
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d082cb6f04b064430800000000000000
+      internalID: 3766710511987337229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 25
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef9d0885d8cf7fc0800000000000000
+      internalID: -3494853966380032031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 21
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efe5b6462ff1daa0800000000000000
+      internalID: -6137844277269106719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 16
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5ad57acf6c54320800000000000000
+      internalID: 2541656353162503623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 13
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a061a14c28937b970800000000000000
+      internalID: 8770542033125905930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 16
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821438c77097e2e70800000000000000
+      internalID: 9092337770768318760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e9e3c2ac6003a10800000000000000
+      internalID: 1887015709263699546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbeff9b794c73f720800000000000000
+      internalID: 2878781241868418749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 17
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf9f620dab900f60800000000000000
+      internalID: 7998564105582518188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899841d6c4c9a7f90800000000000000
+      internalID: -6955074822458799720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 4
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb18447b8810eb20800000000000000
+      internalID: 3161553925644491738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 5
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ac60dfaa159d500800000000000000
+      internalID: 421457834967222883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 7
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33122f7f9ecbf0a60800000000000000
+      internalID: 7642534805744263475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StepGranny_bed-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 5
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d16f0bcfeed4e180800000000000000
+      internalID: -9086893026641485358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StepGranny_bed-Sheet_0: -8191100179405106997
+      StepGranny_bed-Sheet_1: 7519470746252450375
+      StepGranny_bed-Sheet_10: -2952709750677077580
+      StepGranny_bed-Sheet_100: 9092337770768318760
+      StepGranny_bed-Sheet_101: 1887015709263699546
+      StepGranny_bed-Sheet_102: 2878781241868418749
+      StepGranny_bed-Sheet_103: 7998564105582518188
+      StepGranny_bed-Sheet_104: -6955074822458799720
+      StepGranny_bed-Sheet_105: 3161553925644491738
+      StepGranny_bed-Sheet_106: 421457834967222883
+      StepGranny_bed-Sheet_107: 7642534805744263475
+      StepGranny_bed-Sheet_108: -9086893026641485358
+      StepGranny_bed-Sheet_11: 739921115767500205
+      StepGranny_bed-Sheet_12: 1275524387940777445
+      StepGranny_bed-Sheet_13: -6966763900994484795
+      StepGranny_bed-Sheet_14: -3380255545996417695
+      StepGranny_bed-Sheet_15: 5377926091387306545
+      StepGranny_bed-Sheet_16: -1565117143096510337
+      StepGranny_bed-Sheet_17: 2682508940218177859
+      StepGranny_bed-Sheet_18: -3923435708973312130
+      StepGranny_bed-Sheet_19: -2308012551342017886
+      StepGranny_bed-Sheet_2: -4640716375563716463
+      StepGranny_bed-Sheet_20: -8742300551364995117
+      StepGranny_bed-Sheet_21: -1408980666661866684
+      StepGranny_bed-Sheet_22: 7978520092231308273
+      StepGranny_bed-Sheet_23: 8781889625308379051
+      StepGranny_bed-Sheet_24: -281522073719556984
+      StepGranny_bed-Sheet_25: -7378230379281600392
+      StepGranny_bed-Sheet_26: 7124068171440807935
+      StepGranny_bed-Sheet_27: -450850983647322494
+      StepGranny_bed-Sheet_28: -7880804253480287744
+      StepGranny_bed-Sheet_29: -3731286745168272381
+      StepGranny_bed-Sheet_3: -8712307406905482923
+      StepGranny_bed-Sheet_30: -4113042490819766604
+      StepGranny_bed-Sheet_31: 3213267912098090508
+      StepGranny_bed-Sheet_32: -8847616647714640605
+      StepGranny_bed-Sheet_33: 6493228366575220102
+      StepGranny_bed-Sheet_34: 8733651361066147487
+      StepGranny_bed-Sheet_35: -2832741670320143569
+      StepGranny_bed-Sheet_36: -830041202295559556
+      StepGranny_bed-Sheet_37: -243351550185672811
+      StepGranny_bed-Sheet_38: -6709761911045401163
+      StepGranny_bed-Sheet_39: 7564759424230455313
+      StepGranny_bed-Sheet_4: -6118810856262030429
+      StepGranny_bed-Sheet_40: 333985231335559343
+      StepGranny_bed-Sheet_41: 6339718824334926129
+      StepGranny_bed-Sheet_42: -6604563448913313582
+      StepGranny_bed-Sheet_43: 8987372813080867466
+      StepGranny_bed-Sheet_44: 198195831118334697
+      StepGranny_bed-Sheet_45: 5028631529147279895
+      StepGranny_bed-Sheet_46: 1150274495206289962
+      StepGranny_bed-Sheet_47: -2179971054338967182
+      StepGranny_bed-Sheet_48: -3762427863020083260
+      StepGranny_bed-Sheet_49: 5154896733763877437
+      StepGranny_bed-Sheet_5: 5070217264494638709
+      StepGranny_bed-Sheet_50: 4573228412296104013
+      StepGranny_bed-Sheet_51: 1397454937415026535
+      StepGranny_bed-Sheet_52: 2273084370783075714
+      StepGranny_bed-Sheet_53: 4591366138193127246
+      StepGranny_bed-Sheet_54: 1110495202405343640
+      StepGranny_bed-Sheet_55: -7905130334097379424
+      StepGranny_bed-Sheet_56: 6518211307217801199
+      StepGranny_bed-Sheet_57: 1382483337819912391
+      StepGranny_bed-Sheet_58: 2284351625393048664
+      StepGranny_bed-Sheet_59: -533789318797090378
+      StepGranny_bed-Sheet_6: 4863287650229563951
+      StepGranny_bed-Sheet_60: 2993221886600806556
+      StepGranny_bed-Sheet_61: -4346333832612408246
+      StepGranny_bed-Sheet_62: -8144718144387337463
+      StepGranny_bed-Sheet_63: -8649537996675102092
+      StepGranny_bed-Sheet_64: -2928586397975121057
+      StepGranny_bed-Sheet_65: 2322989575047145971
+      StepGranny_bed-Sheet_66: 8029655290460757270
+      StepGranny_bed-Sheet_67: 8362715025380664334
+      StepGranny_bed-Sheet_68: -3754383667597687445
+      StepGranny_bed-Sheet_69: -8416551531628613305
+      StepGranny_bed-Sheet_7: 6589909042155162392
+      StepGranny_bed-Sheet_70: -5160476559880213577
+      StepGranny_bed-Sheet_71: 1530551241271086074
+      StepGranny_bed-Sheet_72: 6020070316266771446
+      StepGranny_bed-Sheet_73: 5068647712938266889
+      StepGranny_bed-Sheet_74: -1177968254005013579
+      StepGranny_bed-Sheet_75: -7064437445241835758
+      StepGranny_bed-Sheet_76: 5739848160548172160
+      StepGranny_bed-Sheet_77: -5946810459601406850
+      StepGranny_bed-Sheet_78: -9146128276448575055
+      StepGranny_bed-Sheet_79: 6227169643699906740
+      StepGranny_bed-Sheet_8: -1292124496427987826
+      StepGranny_bed-Sheet_80: -488692242231682861
+      StepGranny_bed-Sheet_81: -381179616502436259
+      StepGranny_bed-Sheet_82: 6064366297408181173
+      StepGranny_bed-Sheet_83: -4088680869620224182
+      StepGranny_bed-Sheet_84: 1201395352260813738
+      StepGranny_bed-Sheet_85: 1467058329261737027
+      StepGranny_bed-Sheet_86: -201250686911521785
+      StepGranny_bed-Sheet_87: 6005523497046457925
+      StepGranny_bed-Sheet_88: 4763256479244417331
+      StepGranny_bed-Sheet_89: 8650132169913086899
+      StepGranny_bed-Sheet_9: -6907984741480108351
+      StepGranny_bed-Sheet_90: -1159155505513149528
+      StepGranny_bed-Sheet_91: 1299350949868330373
+      StepGranny_bed-Sheet_92: 4342971795325605982
+      StepGranny_bed-Sheet_93: 5923225691578924905
+      StepGranny_bed-Sheet_94: 4971356068508452636
+      StepGranny_bed-Sheet_95: 3766710511987337229
+      StepGranny_bed-Sheet_96: -3494853966380032031
+      StepGranny_bed-Sheet_97: -6137844277269106719
+      StepGranny_bed-Sheet_98: 2541656353162503623
+      StepGranny_bed-Sheet_99: 8770542033125905930
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
