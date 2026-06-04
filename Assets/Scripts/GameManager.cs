@@ -101,7 +101,7 @@ public class GameManager : MonoBehaviour{
             endGame();
             counterDay++;
         }
-        scoreText.text = "Day: " + (counterDay-1) + "/" + (numberOfDays-1);
+        scoreText.text = "Day: " + counterDay + "/" + (numberOfDays-1);
     }
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.name == "Tv" && tvMinigame._isFinished == false) {

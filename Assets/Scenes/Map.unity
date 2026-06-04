@@ -16917,10 +16917,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Text will scroll from right to left across the screen. Type each word
-    as quickly and accurately as possible before it disappears.\n\nBe alert, stay
-    precise, and keep up with the pace - the text won't stop for anyone, even for
-    grandma\u2026 "
+  m_text: "At the start of the challenge, the signal Grandma is currently receiving
+    will be displayed for a few seconds. \n\nObserve it carefully and try to remember
+    its shape, as it won't be shown again. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
